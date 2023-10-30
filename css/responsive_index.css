@@ -122,6 +122,9 @@
   #search input {
     padding: 15px;
   }
+  .nav_sidebar li {
+    padding: 5px 0px;
+  }
   .nav_sidebar li a {
     font-size: 8px;
   }
