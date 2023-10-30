@@ -1,0 +1,256 @@
+/* Extra small devices portrait phones, less than 576px */
+@media (max-width: 575.98px) {
+  
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  section {
+    padding: 0px 15px;
+  }
+  .media .media_icon {
+    width: 100%;
+    padding-right: 100px;
+  }
+  .media_icon .cicle_icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+  .nav_content .search {
+    display: none;
+  }
+  .header {
+    height: 80px;
+  }
+  .header .nav_content {
+    width: 100%;
+    padding: 5px 6px;
+  }
+  .nav_content .media_logo {
+    width: 100%;
+  }
+  .media .toggle {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .section_1 {
+    height: 390px;
+  }
+  .container_sec_1 {
+    width: 100%;
+  }
+  .box_left_sec1 {
+    width: 100%;
+  }
+  .box_right_sec1 {
+    display: none;
+  }
+  .img_sec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .container_sec_1 .img_sec1 .text1_box_left_sec1 {
+    top: 55%;
+  }
+  .box_left_sec1 .date_sec1 {
+    top: 80%;
+  }
+
+  .full_container1 {
+    padding: 0px 15px;
+  }
+  .full_container1 .container_1 {
+    width: 100%;
+  }
+  .full_card_news1 .container_news1 {
+    width: 100%;
+  }
+  .full_card_news1 .container_news1 {
+    gap: 15px;
+  }
+  .container_news1 .card_news1 {
+    width: 48.62%;
+  }
+
+  .full_container_footer1 .container_footer1 {
+    padding: 0px 15px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container_footer1 .box_left {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .container_footer1 .box_mit1 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit1 .all_socail {
+    display: flex;
+    gap: 50px;
+  }
+  .container_footer1 .box_mit2 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit2 .ios {
+    margin-top: 10px;
+  }
+  .container_footer1 .box_right {
+    width: 100%;
+    padding: 0;
+  }
+  .all_download {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .box_mit2 .ios {
+    width: 160px;
+    height: 100%;
+    padding: 0;
+  }
+  .box_mit2 .addriod {
+    width: 160px;
+    height: 100%;
+    margin-top: 12px;
+  }
+
+  .box_sidebar {
+    height: 200vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header .nav_content {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .media {
+    width: 100%;
+    padding-left: 220px;
+  }
+  .media .media_icon {
+    width: 100%;
+    padding: 1px;
+  }
+  .media_icon .cicle_icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .media_logo .logo {
+    width: 30%;
+  }
+  .nav_content .search form input {
+    display: none;
+  }
+  .search_icon {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .container_sec_1 {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .box_left_sec1 {
+    width: 100%;
+  }
+
+  .box_right_sec1 {
+    display: none;
+  }
+
+  .full_container1 {
+    padding: 0px 10px;
+  }
+  .full_container1 .container_1 {
+    width: 100%;
+  }
+
+  .full_card_news1 .container_news1 {
+    width: 100%;
+    gap: 10px;
+    padding: 0px 10px 0px 10px;
+  }
+  .container_news1 .card_news1 {
+    width: 49.38%;
+  }
+
+  .full_container_footer1 {
+    padding: 10px;
+  }
+  .full_container_footer1 .container_footer1 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container_footer1 .box_left {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .container_footer1 .box_mit1 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit1 .all_socail {
+    display: flex;
+    gap: 150px;
+  }
+  .container_footer1 .box_mit2 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit2 .ios {
+    margin-top: 10px;
+  }
+  .container_footer1 .box_right {
+    width: 100%;
+    padding: 0;
+  }
+  .all_download {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .box_mit2 .ios {
+    width: 180px;
+    height: 100%;
+    padding: 0;
+  }
+  .box_mit2 .addriod {
+    width: 180px;
+    height: 100%;
+    margin-top: 12px;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
