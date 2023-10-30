@@ -1,6 +1,116 @@
 /* Extra small devices portrait phones, less than 576px */
 @media (max-width: 575.98px) {
-  
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    display: none;
+  }
+  .media .media_icon {
+    display: none;
+  }
+  .media .search {
+    display: none;
+  }
+  .media .toggle {
+    display: block;
+  }
+  .header .nav_content {
+    width: 100%;
+  }
+  .nav_content .media_logo {
+    width: 100%;
+  }
+  .media_logo .logo {
+    width: 30%;
+    padding-left: 5px;
+  }
+
+  .section_1 {
+    height: 275px;
+    margin-top: 0;
+  }
+  .container_sec_1 {
+    width: 100%;
+    gap: 0;
+  }
+  .box_left_sec1 {
+    width: 100%;
+  }
+  .container_sec_1 .img_sec1 .text1_box_left_sec1 {
+    top: 40%;
+  }
+  .box_left_sec1 .date_sec1 {
+    top: 73%;
+  }
+  .full_container1 .container_1 {
+    width: 100%;
+  }
+  .full_card_news1 .container_news1 {
+    width: 100%;
+  }
+  .container_news1 .card_news1 {
+    width: 100%;
+  }
+  .box_right_sec1 {
+    display: none;
+  }
+
+  .full_container_footer1 .container_footer1 {
+    padding: 0px 15px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container_footer1 .box_left {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .container_footer1 .box_mit1 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit1 .all_socail {
+    display: flex;
+    gap: 20px;
+  }
+  .container_footer1 .box_mit2 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .box_mit2 .ios {
+    margin-top: 10px;
+  }
+  .container_footer1 .box_right {
+    width: 100%;
+    padding: 0;
+  }
+  .all_download {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .box_mit2 .ios {
+    width: 160px;
+    height: 100%;
+    padding: 0;
+  }
+  .box_mit2 .addriod {
+    width: 160px;
+    height: 100%;
+    margin-top: 12px;
+  }
+
+  .full_container_footer2 .container_footer2 {
+    width: 100%;
+  }
+  .container_footer2 p {
+  }
+
+  .box_sidebar {
+    height: 200vh;
+  }
 }
 
 /*  Small devices (landscape phones, 576px and up) */
