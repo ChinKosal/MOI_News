@@ -105,9 +105,26 @@
   .full_container_footer2 .container_footer2 {
     width: 100%;
   }
-  .container_footer2 p {
-  }
 
+  .full_container_sidebar .box_sidebar {
+    width: 80%;
+  }
+  .box_sidebar .full_container_header {
+    height: 75px;
+  }
+  .container_header .box_logo {
+    width: 30%;
+    padding: 5px;
+  }
+  .box_sidebar #search {
+    height: 40px;
+  }
+  #search input {
+    padding: 15px;
+  }
+  .nav_sidebar li a {
+    font-size: 15px;
+  }
   .box_sidebar {
     height: 200vh;
   }
