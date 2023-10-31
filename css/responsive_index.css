@@ -542,7 +542,7 @@
     width: 100%;
   }
   .container_news1 .card_news1 {
-    width: 31.93%;
+    width: 32.19%;
   }
   .full_container_footer1 {
     padding: 20px 15px;
@@ -583,26 +583,5 @@
   }
   .nav_content .media {
     gap: 20px;
-  }
-  .container_news1 .card_news1 {
-    width: 31.93%;
-  }
-  .header .nav_content {
-    width: 70%;
-  }
-  .menu {
-    width: 70%;
-  }
-  .container_sec_1 {
-    width: 70%;
-  }
-  .full_container1 .container_1 {
-    width: 70%;
-  }
-  .full_container_footer1 .container_footer1 {
-    width: 70%;
-  }
-  .full_container_footer2 .container_footer2 {
-    width: 70%;
   }
 }
