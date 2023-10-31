@@ -486,7 +486,7 @@
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1280px) and (max-width: 1570px) {
+@media (min-width: 1280px) and (max-width: 1569.98px) {
   body {
     overflow: hidden;
     position: relative;
