@@ -1,7 +1,6 @@
 /* Extra small devices portrait phones, less than 576px */
 @media (max-width: 575.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -148,7 +147,6 @@
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -281,7 +279,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -400,7 +397,6 @@
 /*  Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -488,7 +484,6 @@
 /*  Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1491.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -575,7 +570,6 @@
 
 @media (min-width: 1492px) and (max-width: 2039.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -591,7 +585,6 @@
 
 @media (min-width: 2040px) and (max-width: 2089.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -607,7 +600,6 @@
 
 @media (min-width: 2090px) and (max-width: 2219.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -622,7 +614,6 @@
 }
 @media (min-width: 2220px) and (max-width: 3359.98px) {
   body {
-    overflow: hidden;
     position: relative;
   }
   html {
@@ -637,10 +628,6 @@
 }
 
 @media (min-width: 3360px) {
-  body {
-    overflow: hidden;
-    position: relative;
-  }
   html {
     overflow-x: hidden;
   }
