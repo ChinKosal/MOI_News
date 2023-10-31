@@ -4,7 +4,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .navbar {
     display: none;
@@ -150,7 +150,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   section {
     padding: 0px 15px;
@@ -282,7 +282,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .header .nav_content {
     width: 100%;
@@ -400,7 +400,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .header {
     height: 90px;
@@ -487,7 +487,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .header {
     height: 90px;
@@ -588,7 +588,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .nav_content .media {
     gap: 20px;
@@ -617,7 +617,7 @@
     position: relative;
   }
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .nav_content .media {
     gap: 20px;
