@@ -164,7 +164,7 @@ form {
 .navbar {
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: var(--red_color);
 
   position: -webkit-sticky;
   position: sticky;
@@ -830,6 +830,7 @@ form {
 .box_mit2 .addriod {
   width: 100%;
   height: 70px;
+  margin-top: 10px;
 }
 .addriod img {
   width: 100%;
