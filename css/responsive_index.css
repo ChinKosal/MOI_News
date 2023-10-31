@@ -581,4 +581,10 @@
   html {
     overflow-x: hidden;
   }
+  .media {
+    gap: 10px;
+  }
+  .nav_menu li a {
+    font-size: 14px;
+  }
 }
