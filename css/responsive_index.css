@@ -75,7 +75,14 @@
   }
   .box_mit1 .all_socail {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+  }
+  .all_socail .cicle_svg {
+    width: 20px;
+    height: 20px;
+  }
+  .facebook p {
+    font-size: 16px;
   }
   .container_footer1 .box_mit2 {
     width: 100%;
