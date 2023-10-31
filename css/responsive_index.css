@@ -573,7 +573,7 @@
   }
 }
 
-@media (min-width: 1492px) {
+@media (min-width: 1492px) and (max-width: 2039.98px) {
   body {
     overflow: hidden;
     position: relative;
@@ -583,5 +583,71 @@
   }
   .nav_content .media {
     gap: 20px;
+  }
+  .container_news1 .card_news1 {
+    width: 32.05%;
+  }
+}
+
+@media (min-width: 2040px) and (max-width: 2089.98px) {
+  body {
+    overflow: hidden;
+    position: relative;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .nav_content .media {
+    gap: 20px;
+  }
+  .container_news1 .card_news1 {
+    width: 32.39%;
+  }
+}
+
+@media (min-width: 2090px) and (max-width: 2219.98px) {
+  body {
+    overflow: hidden;
+    position: relative;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .nav_content .media {
+    gap: 20px;
+  }
+  .container_news1 .card_news1 {
+    width: 32.39%;
+  }
+}
+@media (min-width: 2220px) and (max-width: 3359.98px) {
+  body {
+    overflow: hidden;
+    position: relative;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .nav_content .media {
+    gap: 20px;
+  }
+  .container_news1 .card_news1 {
+    width: 32.47%;
+  }
+}
+
+@media (min-width: 3360px) {
+  body {
+    overflow: hidden;
+    position: relative;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .nav_content .media {
+    gap: 20px;
+  }
+  .container_news1 .card_news1 {
+    width: 32.76%;
   }
 }
