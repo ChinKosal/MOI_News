@@ -486,7 +486,7 @@
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1280px) and (max-width: 1569.98px) {
+@media (min-width: 1200px) and (max-width: 1865px) {
   body {
     overflow: hidden;
     position: relative;
@@ -570,21 +570,5 @@
   }
   .box_right .map_box {
     height: 180px;
-  }
-}
-
-@media (min-width: 1551px) {
-  body {
-    overflow: hidden;
-    position: relative;
-  }
-  html {
-    overflow-x: hidden;
-  }
-  .media {
-    gap: 10px;
-  }
-  .nav_menu li a {
-    font-size: 14px;
   }
 }
