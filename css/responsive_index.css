@@ -2,9 +2,10 @@
 @media (max-width: 575.98px) {
   body {
     position: relative;
+    overflow: hidden;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .navbar {
     display: none;
@@ -148,6 +149,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     position: relative;
+    overflow: hidden;
   }
   html {
     overflow: hidden;
@@ -280,9 +282,10 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   body {
     position: relative;
+    overflow: hidden;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .header .nav_content {
     width: 100%;
@@ -400,7 +403,7 @@
     position: relative;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .header {
     height: 90px;
@@ -487,7 +490,7 @@
     position: relative;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .header {
     height: 90px;
@@ -588,7 +591,7 @@
     position: relative;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .nav_content .media {
     gap: 20px;
@@ -617,7 +620,7 @@
     position: relative;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .nav_content .media {
     gap: 20px;
