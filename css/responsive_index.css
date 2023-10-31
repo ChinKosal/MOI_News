@@ -2,6 +2,10 @@
 @media (max-width: 575.98px) {
   body {
     overflow: hidden;
+    position: relative;
+  }
+  html {
+    overflow-x: hidden;
   }
   .navbar {
     display: none;
