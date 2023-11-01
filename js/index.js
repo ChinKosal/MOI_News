@@ -123,7 +123,7 @@ item1.forEach((item, index) => {
           <p class="txt2">${item.txt2}</p>
           <p class="txt3">${item.txt3}</p>
           <div class="btn_share">
-              <button class="btn">
+              <button class="btn" id='show' onClick='showDialog()'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                       <path fill="currentColor"
                           d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
@@ -192,7 +192,7 @@ item2.forEach((item, index) => {
           <p class="txt2">${item.txt2}</p>
           <p class="txt3">${item.txt3}</p>
           <div class="btn_share">
-              <button class="btn">
+              <button class="btn" id='show' onClick='showDialog()'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                       <path fill="currentColor"
                           d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
@@ -261,7 +261,7 @@ item3.forEach((item, index) => {
           <p class="txt2">${item.txt2}</p>
           <p class="txt3">${item.txt3}</p>
           <div class="btn_share">
-              <button class="btn">
+              <button class="btn" id='show' onClick='showDialog()'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                       <path fill="currentColor"
                           d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
@@ -306,7 +306,7 @@ item4.forEach((item, index) => {
           <p class="txt2">${item.txt2}</p>
           <p class="txt3">${item.txt3}</p>
           <div class="btn_share">
-              <button class="btn">
+              <button class="btn" id='show' onClick='showDialog()'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                       <path fill="currentColor"
                           d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
@@ -357,7 +357,7 @@ item5.forEach((item, index) => {
           <p class="txt2">${item.txt2}</p>
           <p class="txt3">${item.txt3}</p>
           <div class="btn_share">
-              <button class="btn">
+              <button class="btn" id='show' onClick='showDialog()'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                       <path fill="currentColor"
                           d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
@@ -381,3 +381,27 @@ function myMap() {
   };
   var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+// modal
+const showDialog = () => {
+  document.getElementById("dialog").classList.add("show");
+  const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
+  const body = document.body;
+  body.style.position = "fixed";
+  body.style.top = `-${scrollY}`;
+};
+const closeDialog = () => {
+  const body = document.body;
+  const scrollY = body.style.top;
+  body.style.position = "";
+  body.style.top = "";
+  window.scrollTo(0, parseInt(scrollY || "0") * -1);
+  document.getElementById("dialog").classList.remove("show");
+};
+window.addEventListener("scroll", () => {
+  document.documentElement.style.setProperty(
+    "--scroll-y",
+    `${window.scrollY}px`
+  );
+});
+// Set event handlers for each button
