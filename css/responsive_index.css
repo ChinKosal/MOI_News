@@ -6,7 +6,6 @@
   }
   html {
     overflow-x: hidden;
-    overflow-y: scroll;
   }
   .navbar {
     display: none;
@@ -139,7 +138,7 @@
     padding: 8px 0px;
   }
   .nav_sidebar li a {
-    font-size: 10px;
+    font-size: 17px;
   }
   .box_sidebar {
     height: 200vh;
