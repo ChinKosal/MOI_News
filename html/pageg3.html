@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/responsive_index.css">
+    <link rel="stylesheet" href="../css/page3.css">
 
     <!-- font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Home page</title>
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>ព័ត៌មានថ្មីបំផុត</title>
 </head>
 
 <body>
@@ -160,7 +161,7 @@
             <div class="media_logo">
                 <div class="logo">
                     <a href="">
-                        <img src="./img/miologo.png" alt="">
+                        <img src="../img/miologo.png" alt="">
                     </a>
                 </div>
             </div>
@@ -284,17 +285,17 @@
     <nav class="navbar">
         <div class="menu">
             <ul class="nav_menu">
+                <li>
+                    <a href="../index.html">ទំព័រដើម</a>
+                </li>
+                <li>
+                    <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
+                </li>
                 <li class="item_active">
-                    <a class="active" href="#">ទំព័រដើម</a>
+                    <a class="active" href="#">សារព័ត៌មានប្រចាំថ្ងៃ</a>
                 </li>
                 <li>
-                    <a href="./html/page2.html">ព័ត៌មានថ្មីបំផុត</a>
-                </li>
-                <li>
-                    <a href="./html/pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
-                </li>
-                <li>
-                    <a href="./html/page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
+                    <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
                 </li>
                 <li>
                     <a href="#">សន្តិសុខសង្គម</a>
@@ -347,167 +348,54 @@
     <section class="section_1">
         <div class="container_sec_1">
             <div class="box_left_sec1">
-                <div class="img_sec1">
-                    <img id="themImage" src="./img/sec_1_img_1.jpg" alt="">
-                    <div class="bg_black"></div>
-                    <p class="text1_box_left_sec1">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                        ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ</p>
-                    <div class="date_sec1">
-                        <div class="detail_date_sec1">
-                            <div class="date_icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 1024 1024">
-                                    <path fill="currentColor"
-                                        d="M128 384v512h768V192H768v32a32 32 0 1 1-64 0v-32H320v32a32 32 0 0 1-64 0v-32H128v128h768v64H128zm192-256h384V96a32 32 0 1 1 64 0v32h160a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h160V96a32 32 0 0 1 64 0v32zm-32 384h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm192-192h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm192-192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64z" />
-                                </svg>
-                            </div>
-                            <p class="text2_box_left_sec1">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                        </div>
-
-                    </div>
-                    <div class="click_sec1">
-                        <div class="all_icon" id="myDIV">
-                            <button class="btn_sec1" onclick="pictureChange1()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
-                                    <g fill="currentColor" fill-rule="evenodd">
-                                        <path
-                                            d="M128 226c-54.124 0-98-43.876-98-98s43.876-98 98-98s98 43.876 98 98s-43.876 98-98 98zm-1-8c49.706 0 90-40.294 90-90s-40.294-90-90-90s-90 40.294-90 90s40.294 90 90 90z" />
-                                        <path
-                                            d="M128 197c-38.108 0-69-30.668-69-68.5S89.892 60 128 60c38.108 0 69 30.668 69 68.5S166.108 197 128 197zm0-6.29c34.22 0 61.96-27.54 61.96-61.511c0-33.971-27.74-61.51-61.96-61.51s-61.96 27.539-61.96 61.51s27.74 61.51 61.96 61.51z" />
-                                        <path
-                                            d="M128 170c-23.196 0-42-18.804-42-42s18.804-42 42-42s42 18.804 42 42s-18.804 42-42 42z" />
-                                    </g>
-                                </svg>
-                            </button>
-
-                            <button class="btn_sec1" onclick="pictureChange2()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
-                                    <g fill="currentColor" fill-rule="evenodd">
-                                        <path
-                                            d="M128 226c-54.124 0-98-43.876-98-98s43.876-98 98-98s98 43.876 98 98s-43.876 98-98 98zm-1-8c49.706 0 90-40.294 90-90s-40.294-90-90-90s-90 40.294-90 90s40.294 90 90 90z" />
-                                        <path
-                                            d="M128 197c-38.108 0-69-30.668-69-68.5S89.892 60 128 60c38.108 0 69 30.668 69 68.5S166.108 197 128 197zm0-6.29c34.22 0 61.96-27.54 61.96-61.511c0-33.971-27.74-61.51-61.96-61.51s-61.96 27.539-61.96 61.51s27.74 61.51 61.96 61.51z" />
-                                        <path
-                                            d="M128 170c-23.196 0-42-18.804-42-42s18.804-42 42-42s42 18.804 42 42s-18.804 42-42 42z" />
-                                    </g>
-                                </svg>
-                            </button>
-
-                            <button class="btn_sec1" onclick="pictureChange3()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
-                                    <g fill="currentColor" fill-rule="evenodd">
-                                        <path
-                                            d="M128 226c-54.124 0-98-43.876-98-98s43.876-98 98-98s98 43.876 98 98s-43.876 98-98 98zm-1-8c49.706 0 90-40.294 90-90s-40.294-90-90-90s-90 40.294-90 90s40.294 90 90 90z" />
-                                        <path
-                                            d="M128 197c-38.108 0-69-30.668-69-68.5S89.892 60 128 60c38.108 0 69 30.668 69 68.5S166.108 197 128 197zm0-6.29c34.22 0 61.96-27.54 61.96-61.511c0-33.971-27.74-61.51-61.96-61.51s-61.96 27.539-61.96 61.51s27.74 61.51 61.96 61.51z" />
-                                        <path
-                                            d="M128 170c-23.196 0-42-18.804-42-42s18.804-42 42-42s42 18.804 42 42s-18.804 42-42 42z" />
-                                    </g>
-                                </svg>
-                            </button>
-
-                            <button class="btn_sec1" onclick="pictureChange4()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
-                                    <g fill="currentColor" fill-rule="evenodd">
-                                        <path
-                                            d="M128 226c-54.124 0-98-43.876-98-98s43.876-98 98-98s98 43.876 98 98s-43.876 98-98 98zm-1-8c49.706 0 90-40.294 90-90s-40.294-90-90-90s-90 40.294-90 90s40.294 90 90 90z" />
-                                        <path
-                                            d="M128 197c-38.108 0-69-30.668-69-68.5S89.892 60 128 60c38.108 0 69 30.668 69 68.5S166.108 197 128 197zm0-6.29c34.22 0 61.96-27.54 61.96-61.511c0-33.971-27.74-61.51-61.96-61.51s-61.96 27.539-61.96 61.51s27.74 61.51 61.96 61.51z" />
-                                        <path
-                                            d="M128 170c-23.196 0-42-18.804-42-42s18.804-42 42-42s42 18.804 42 42s-18.804 42-42 42z" />
-                                    </g>
-                                </svg>
-                            </button>
-
-                            <button class="btn_sec1" onclick="pictureChange5()">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
-                                    <g fill="currentColor" fill-rule="evenodd">
-                                        <path
-                                            d="M128 226c-54.124 0-98-43.876-98-98s43.876-98 98-98s98 43.876 98 98s-43.876 98-98 98zm-1-8c49.706 0 90-40.294 90-90s-40.294-90-90-90s-90 40.294-90 90s40.294 90 90 90z" />
-                                        <path
-                                            d="M128 197c-38.108 0-69-30.668-69-68.5S89.892 60 128 60c38.108 0 69 30.668 69 68.5S166.108 197 128 197zm0-6.29c34.22 0 61.96-27.54 61.96-61.511c0-33.971-27.74-61.51-61.96-61.51s-61.96 27.539-61.96 61.51s27.74 61.51 61.96 61.51z" />
-                                        <path
-                                            d="M128 170c-23.196 0-42-18.804-42-42s18.804-42 42-42s42 18.804 42 42s-18.804 42-42 42z" />
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
+                <div class="bg_black"></div>
+                <div class="image">
+                    <img src="https://moitv.phsartech.com/file_manager/1(180)-a1906ab7-fb2e-4662-86f7-ad0d12438651.jpg"
+                        alt="">
                 </div>
+                <div class="date">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V2h2v2h8V2h2v2h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10ZM5 8h14V6H5v2Zm0 0V6v2Zm7 6q-.425 0-.713-.288T11 13q0-.425.288-.713T12 12q.425 0 .713.288T13 13q0 .425-.288.713T12 14Zm-4 0q-.425 0-.713-.288T7 13q0-.425.288-.713T8 12q.425 0 .713.288T9 13q0 .425-.288.713T8 14Zm8 0q-.425 0-.713-.288T15 13q0-.425.288-.713T16 12q.425 0 .713.288T17 13q0 .425-.288.713T16 14Zm-4 4q-.425 0-.713-.288T11 17q0-.425.288-.713T12 16q.425 0 .713.288T13 17q0 .425-.288.713T12 18Zm-4 0q-.425 0-.713-.288T7 17q0-.425.288-.713T8 16q.425 0 .713.288T9 17q0 .425-.288.713T8 18Zm8 0q-.425 0-.713-.288T15 17q0-.425.288-.713T16 16q.425 0 .713.288T17 17q0 .425-.288.713T16 18Z" />
+                    </svg>
+                    <p class="txt_date">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
+                </div>
+                <p class="text2">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត
+                    អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
+                <button class="btn_read_more">
+                    <p>អានបន្ថែម</p>
+                </button>
             </div>
 
             <div class="box_right_sec1">
-                <div class="box_detail_right_sec1">
-                    <div class="txt">
-                        <p class="title_1">សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្រ្តី រដ្ឋមន្រ្តីក្រសួងមហាផ្ទៃ
-                            អញ្ជើញពិនិត្យវឌ្ឍនភាពនៃដំណើរការសាងសង់អគារទីស្ដីការក្រសួងមហាផ្ទៃ</p>
-                        <p class="date">ថ្ងៃច័ន្ទ ទី៣១ ខែកក្កដា ឆ្នាំ២០២៣</p>
+                <div class="box_item_right">
+                    <div class="box_image_right">
+                        <div class="bg_black2"></div>
+                        <img src="https://moitv.phsartech.com/file_manager/350531788_1236842850294608_6054326016678676318_n-398cd91e-5314-4a36-875b-d743c6a59933.jpg"
+                            alt="">
+                        <p class="txt_rigth_sec1">សម្ដេចក្រឡាហោម ស ខេង
+                            អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឲ្យប្រើប្រាស់ជាផ្លូវការវិមានឯករាជ្យ
+                            សួនសម្ដេចក្រឡាហោម វិមានឯករាជ្យ សួនធ្នង់៥៣ និងផ្លូវចាក់កៅស៊ូបេទីម នៅបរិវេណវិមានឯករាជ្យ
+                            ស្ថិតនៅក្រុងបាត់ដំបង ខេត្តបាត់ដំបង។</p>
                     </div>
-                    <div class="image">
-                        <div class="box_img">
-                            <img src="./img/sec_1_img_6.jpg" alt="">
-                        </div>
+                    <div class="box_image_right">
+                        <div class="bg_black2"></div>
+                        <img src="https://moitv.phsartech.com/file_manager/351318241_796497841757649_1685646811152152084_n-233671e8-9fd4-41d6-b8fa-024d2e87537a.jpg"
+                            alt="">
+                        <p class="txt_rigth_sec1">សម្ដេចក្រឡាហោម ស ខេង
+                            អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឲ្យប្រើប្រាស់ជាផ្លូវការវិមានឯករាជ្យ
+                            សួនសម្ដេចក្រឡាហោម វិមានឯករាជ្យ សួនធ្នង់៥៣ និងផ្លូវចាក់កៅស៊ូបេទីម នៅបរិវេណវិមានឯករាជ្យ
+                            ស្ថិតនៅក្រុងបាត់ដំបង ខេត្តបាត់ដំបង។</p>
                     </div>
-                </div>
-
-                <div class="box_detail_right_sec1">
-                    <div class="txt">
-                        <p class="title_1">សម្តេចក្រឡាហោម ស ខេង ផ្ញើលិខិតសរសើរជូនថ្នាក់ដឹកនាំ សមាជិក
-                            និងអាជ្ញាធរមានសមត្ថកិច្ច ព្រមទាំងកងកម្លាំងអនុវត្តច្បាប់គ្រប់លំដាប់ថ្នាក់
-                            នៃគណៈបញ្ជាការសន្តិសុខអចិន្ត្រៃយ៍សម្រាប់ការបោះឆ្នោត</p>
-                        <p class="date">ថ្ងៃច័ន្ទ ទី៣១ ខែកក្កដា ឆ្នាំ២០២៣</p>
+                    <div class="box_image_right">
+                        <div class="bg_black2"></div>
+                        <img src="https://moitv.phsartech.com/file_manager/C01-6d573620-a6bb-4ac3-b006-28b668c89cd1.png"
+                            alt="">
+                        <p class="txt_rigth_sec1">សម្ដេចក្រឡាហោម ស ខេង
+                            អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឲ្យប្រើប្រាស់ជាផ្លូវការវិមានឯករាជ្យ
+                            សួនសម្ដេចក្រឡាហោម វិមានឯករាជ្យ សួនធ្នង់៥៣ និងផ្លូវចាក់កៅស៊ូបេទីម នៅបរិវេណវិមានឯករាជ្យ
+                            ស្ថិតនៅក្រុងបាត់ដំបង ខេត្តបាត់ដំបង។</p>
                     </div>
-                    <div class="image">
-                        <div class="box_img">
-                            <img src="./img/sec_1_img_7.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box_detail_right_sec1">
-                    <div class="txt">
-                        <p class="title_1">សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្រ្តី រដ្ឋមន្រ្តីក្រសួងមហាផ្ទៃ
-                            ទទួលជួបពិភាក្សាការងារជាមួយឯកឧត្តម Nuno Gomes Nabiam នាយករដ្ឋមន្រ្តី នៃសាធារណរដ្ឋហ្គីណេប៊ីសាវ
-                        </p>
-                        <p class="date">ថ្ងៃច័ន្ទ ទី៣១ ខែកក្កដា ឆ្នាំ២០២៣</p>
-                    </div>
-                    <div class="image">
-                        <div class="box_img">
-                            <img src="./img/sec_1_img_8.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box_detail_right_sec1">
-                    <div class="txt">
-                        <p class="title_1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ ញ៉ែម សាខន សខេង អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                            ក្នុងពិធីបិទយុទ្ធនាការឃោសនាបោះឆ្នោត ជ្រើសតាំងតំណាងរាស្ត្រនីតិកាលទី៧ ឆ្នាំ២០២៣ នៅខេត្តព្រៃវែង
-                        </p>
-                        <p class="date">ថ្ងៃច័ន្ទ ទី៣១ ខែកក្កដា ឆ្នាំ២០២៣</p>
-                    </div>
-                    <div class="image">
-                        <div class="box_img">
-                            <img src="./img/sec_1_img_9.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box_detail_right_sec1">
-                    <div class="txt">
-                        <p class="title_1">សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញបោះឆ្នោតជ្រើសតាំងតំណាងរាស្ត្រនីតិកាលទី៧
-                            នៅការិយាល័យបោះឆ្នោត អនុវិទ្យាល័យ សោ ហ៊ឺ ក្រុងបាត់ដំបង ខេត្តបាត់ដំបង</p>
-                        <p class="date">ថ្ងៃច័ន្ទ ទី៣១ ខែកក្កដា ឆ្នាំ២០២៣</p>
-                    </div>
-                    <div class="image">
-                        <div class="box_img">
-                            <img src="./img/sec_1_img_10.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="btn_slide_card">
-                    <button>
-                        <i id="icon_unluck" class="fa-solid fa-arrow-up-long"></i>
-                        <i id="icon_luck" class="fa-solid fa-arrow-down-long"></i>
-                    </button>
                 </div>
             </div>
         </div>
@@ -527,21 +415,16 @@
     <!-- card of news1 -->
     <section class="full_card_news1">
         <div class="container_news1" id="get_item">
-            <!-- <div class="card_news1">
+            <div class="card_news1">
                 <div class="box_img">
-                    <img src="./img/news1_img1.jpg" alt="">
+                    <img src="https://moitv.phsartech.com/file_manager/1(180)-a1906ab7-fb2e-4662-86f7-ad0d12438651.jpg"
+                        alt="">
                 </div>
                 <div class="box_title">
-                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
-                        និងចម្រើនព្រះបរិត្ត
-                        អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                    <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
-                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
-                        ខែសីហា
-                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
-                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
-                        នៃក្រសួងមហាផ្ទៃ។</p>
+                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជួបសំណេះសំណាលជាមួយសមាជិក សមាជិកា
+                        នៃសហភាពសហជីពរក្សាសិទ្ធិកម្មករកម្ពុជា(CWPUC)</p>
                     <div class="btn_share">
+                        <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
                         <button class="btn" id='show' onClick='showDialog()'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                 <path fill="currentColor"
@@ -550,13 +433,97 @@
                             <p class="txt_share">ចែករំលែក</p>
                         </button>
                     </div>
+                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។ នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។ នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។ នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។</p>
                 </div>
-            </div> -->
+            </div>
+
+            <div class="card_news1" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <div class="box_img">
+                    <img src="https://moitv.phsartech.com/file_manager/F01-64fa0a70-0b82-422f-957f-995e4406fa76.png"
+                        alt="">
+                </div>
+                <div class="box_title">
+                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជួបសំណេះសំណាលជាមួយសមាជិក សមាជិកា
+                        នៃសហភាពសហជីពរក្សាសិទ្ធិកម្មករកម្ពុជា(CWPUC)</p>
+                    <div class="btn_share">
+                        <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
+                        <button class="btn" id='show' onClick='showDialog()'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
+                            </svg>
+                            <p class="txt_share">ចែករំលែក</p>
+                        </button>
+                    </div>
+                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។ នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។</p>
+                </div>
+            </div>
+
+            <div class="card_news1" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <div class="box_img">
+                    <img src="https://moitv.phsartech.com/file_manager/21-cd8d4e03-8630-4c97-86d2-2f26b6477a63.png"
+                        alt="">
+                </div>
+                <div class="box_title">
+                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជួបសំណេះសំណាលជាមួយសមាជិក សមាជិកា
+                        នៃសហភាពសហជីពរក្សាសិទ្ធិកម្មករកម្ពុជា(CWPUC)</p>
+                    <div class="btn_share">
+                        <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
+                        <button class="btn" id='show' onClick='showDialog()'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
+                            </svg>
+                            <p class="txt_share">ចែករំលែក</p>
+                        </button>
+                    </div>
+                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។ នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
+                        ខែសីហា
+                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
+                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
+                        នៃក្រសួងមហាផ្ទៃ។</p>
+                </div>
+            </div>
         </div>
 
         <div class="btn_more_item">
-            <button class="btn">
-                <p class="txt">មានច្រើនទៀត</p>
+            <button class="btn_back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
+                    <path fill="currentColor"
+                        d="M529.408 149.376a29.12 29.12 0 0 1 41.728 0a30.592 30.592 0 0 1 0 42.688L259.264 511.936l311.872 319.936a30.592 30.592 0 0 1-.512 43.264a29.12 29.12 0 0 1-41.216-.512L197.76 534.272a32 32 0 0 1 0-44.672l331.648-340.224zm256 0a29.12 29.12 0 0 1 41.728 0a30.592 30.592 0 0 1 0 42.688L515.264 511.936l311.872 319.936a30.592 30.592 0 0 1-.512 43.264a29.12 29.12 0 0 1-41.216-.512L453.76 534.272a32 32 0 0 1 0-44.672l331.648-340.224z" />
+                </svg>
+                <p class="txt">ថយក្រោយ</p>
+            </button>
+            <button class="btn_go" id="btn_go">
+                <p class="txt">បន្ទាប់</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
                     <path fill="currentColor"
                         d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L764.736 512L452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L508.736 512L196.864 192a30.592 30.592 0 0 1 0-42.688z" />
@@ -565,212 +532,6 @@
         </div>
     </section>
     <!-- finish of news1 -->
-
-    <!-- title of news2 -->
-    <div class="full_container1">
-        <div class="container_1">
-            <div class="title_news">
-                <p>សាព័ត៌មានប្រចាំថ្ងៃ</p>
-            </div>
-        </div>
-    </div>
-    <!-- finish title of news2 -->
-
-    <!-- card of news2 -->
-    <section class="full_card_news1">
-        <div class="container_news1" id="get_item2">
-            <!-- <div class="card_news1">
-                <div class="box_img">
-                    <img src="./img/news1_img1.jpg" alt="">
-                </div>
-                <div class="box_title">
-                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
-                        និងចម្រើនព្រះបរិត្ត
-                        អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                    <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
-                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
-                        ខែសីហា
-                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
-                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
-                        នៃក្រសួងមហាផ្ទៃ។</p>
-                    <div class="btn_share">
-                        <button class="btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
-                            </svg>
-                            <p class="txt_share">ចែករំលែក</p>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="btn_more_item">
-            <button class="btn">
-                <p class="txt">មានច្រើនទៀត</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
-                    <path fill="currentColor"
-                        d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L764.736 512L452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L508.736 512L196.864 192a30.592 30.592 0 0 1 0-42.688z" />
-                </svg>
-            </button>
-        </div>
-    </section>
-    <!-- finish of news2 -->
-
-    <!-- title of news3 -->
-    <div class="full_container1">
-        <div class="container_1">
-            <div class="title_news">
-                <p>សកម្មភាពថ្នាក់ដឹកនាំ</p>
-            </div>
-        </div>
-    </div>
-    <!-- finish title of news3 -->
-
-    <!-- card of news2 -->
-    <section class="full_card_news1">
-        <div class="container_news1" id="get_item3">
-            <!-- <div class="card_news1">
-                <div class="box_img">
-                    <img src="./img/news1_img1.jpg" alt="">
-                </div>
-                <div class="box_title">
-                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
-                        និងចម្រើនព្រះបរិត្ត
-                        អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                    <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
-                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
-                        ខែសីហា
-                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
-                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
-                        នៃក្រសួងមហាផ្ទៃ។</p>
-                    <div class="btn_share">
-                        <button class="btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
-                            </svg>
-                            <p class="txt_share">ចែករំលែក</p>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="btn_more_item">
-            <button class="btn">
-                <p class="txt">មានច្រើនទៀត</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
-                    <path fill="currentColor"
-                        d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L764.736 512L452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L508.736 512L196.864 192a30.592 30.592 0 0 1 0-42.688z" />
-                </svg>
-            </button>
-        </div>
-    </section>
-    <!-- finish of news2 -->
-
-    <!-- title of news4 -->
-    <div class="full_container1">
-        <div class="container_1">
-            <div class="title_news">
-                <p>សន្តិសុខនិងសង្គម</p>
-            </div>
-        </div>
-    </div>
-    <!-- finish title of news4 -->
-    <!-- card of news៤ -->
-    <section class="full_card_news1">
-        <div class="container_news1" id="get_item4">
-            <!-- <div class="card_news1">
-                <div class="box_img">
-                    <img src="./img/news1_img1.jpg" alt="">
-                </div>
-                <div class="box_title">
-                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
-                        និងចម្រើនព្រះបរិត្ត
-                        អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                    <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
-                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
-                        ខែសីហា
-                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
-                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
-                        នៃក្រសួងមហាផ្ទៃ។</p>
-                    <div class="btn_share">
-                        <button class="btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
-                            </svg>
-                            <p class="txt_share">ចែករំលែក</p>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="btn_more_item">
-            <button class="btn">
-                <p class="txt">មានច្រើនទៀត</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
-                    <path fill="currentColor"
-                        d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L764.736 512L452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L508.736 512L196.864 192a30.592 30.592 0 0 1 0-42.688z" />
-                </svg>
-            </button>
-        </div>
-    </section>
-    <!-- finish of news៤ -->
-
-    <!-- title of news4 -->
-    <div class="full_container1">
-        <div class="container_1">
-            <div class="title_news">
-                <p>វគ្គបណ្តុះបណ្តាល</p>
-            </div>
-        </div>
-    </div>
-    <!-- finish title of news4 -->
-    <!-- card of news៤ -->
-    <section class="full_card_news1">
-        <div class="container_news1" id="get_item5">
-            <!-- <div class="card_news1">
-                <div class="box_img">
-                    <img src="./img/news1_img1.jpg" alt="">
-                </div>
-                <div class="box_title">
-                    <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
-                        និងចម្រើនព្រះបរិត្ត
-                        អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                    <p class="txt2">ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣</p>
-                    <p class="txt3">នាព្រឹកថ្ងៃព្រហស្បតិ៍ ១កើត ខែស្រាពណ៍ ឆ្នាំថោះ បញ្ចស័ក ព.ស២៥៦៧ ត្រូវនឹងថ្ងៃទី១៧
-                        ខែសីហា
-                        ឆ្នាំ២០២៣នេះ សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ និងលោកជំទាវ ញ៉ែម
-                        សាខន ស ខេង បានអញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី
-                        នៃក្រសួងមហាផ្ទៃ។</p>
-                    <div class="btn_share">
-                        <button class="btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M11.293 2.293a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1-1.414 1.414L13 5.414V15a1 1 0 1 1-2 0V5.414L9.707 6.707a1 1 0 0 1-1.414-1.414l3-3zM4 11a2 2 0 0 1 2-2h2a1 1 0 0 1 0 2H6v9h12v-9h-2a1 1 0 1 1 0-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9z" />
-                            </svg>
-                            <p class="txt_share">ចែករំលែក</p>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="btn_more_item">
-            <button class="btn">
-                <p class="txt">មានច្រើនទៀត</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
-                    <path fill="currentColor"
-                        d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L764.736 512L452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.592 30.592 0 0 1 0-42.752L508.736 512L196.864 192a30.592 30.592 0 0 1 0-42.688z" />
-                </svg>
-            </button>
-        </div>
-    </section>
-    <!-- finish of news៤ -->
 
     <!-- footer  -->
     <div class="full_container_footer1">
@@ -899,12 +660,12 @@
                 <div class="all_download">
                     <div class="ios">
                         <a target="_blank" href="https://apps.apple.com/kh/app/moi-news-cambodia/id1594639836">
-                            <img src="./img/ios_footer.png" alt=""></a>
+                            <img src="../img/ios_footer.png" alt=""></a>
                     </div>
                     <div class="addriod">
                         <a target="_blank"
                             href="https://play.google.com/store/apps/details?id=com.moinewscambodia.rout">
-                            <img src="./img/addriod_footer.png" alt=""></a>
+                            <img src="../img/addriod_footer.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -942,6 +703,11 @@
 
 </body>
 
-<script src="./js/index.js"></script>
+<script src="../js/page3.js"></script>
+<!-- AOS scrip -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
