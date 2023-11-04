@@ -123,8 +123,6 @@
   }
   .box_sidebar .full_container_header {
     height: 75px;
-  }
-  .full_container_header .container_header {
     position: sticky;
     top: 0;
   }
