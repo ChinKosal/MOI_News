@@ -311,6 +311,7 @@ form {
 
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
 }
 .container_detail .left_side_content {
   width: 65%;
@@ -477,7 +478,7 @@ form {
 
 .aside_content .card_aside {
   width: 100%;
-  height: 90px;
+  height: auto;
   margin-top: 10px;
 
   display: flex;
