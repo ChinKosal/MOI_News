@@ -123,6 +123,8 @@
   }
   .box_sidebar .full_container_header {
     height: 75px;
+    position: sticky;
+    top: 0;
   }
   .container_header .box_logo {
     width: 30%;
