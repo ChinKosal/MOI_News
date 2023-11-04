@@ -1080,6 +1080,7 @@ form {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: none;
 }
 .header_modal button i {
   color: rgba(0, 0, 0, 0.608);
