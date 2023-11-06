@@ -42,17 +42,18 @@
     width: 100%;
   }
   .box_left_sec1 .date {
-    top: 55%;
+    top: 50%;
   }
   .box_left_sec1 .date .txt_date {
     font-size: 14px;
   }
   .box_left_sec1 .text2 {
     font-size: 17px;
-    top: 60%;
+    line-height: 20px;
+    top: 62%;
   }
   .box_left_sec1 .btn_read_more {
-    top: 78%;
+    top: 80%;
     padding: 3px 20px;
   }
 
