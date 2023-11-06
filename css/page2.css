@@ -282,6 +282,7 @@ form {
   margin: 0 auto;
 
   display: flex;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -317,7 +318,7 @@ form {
 .box_left_sec1 .date svg {
   color: var(--white1_color);
 }
-.box_left_sec1 .date {
+.box_left_sec1 .date .txt_date {
   color: var(--white1_color);
   font-family: var(--Sovanphum_font);
   font-size: 17px;
