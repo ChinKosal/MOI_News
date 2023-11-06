@@ -4,15 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/read_news.css">
-    <link rel="stylesheet" href="../css/read_news_respon.css">
+    <link rel="stylesheet" href="../css/radio_page.css">
 
     <!-- font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Home page</title>
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>ព័ត៌មានថ្មីបំផុត</title>
 </head>
 
 <body>
+    <section class="full_modal" id="dialog">
+        <div class="container_box_modal">
+            <div class="box_modal">
+                <div class="header_modal">
+                    <p class="txt_header">ចែករំលែកទៅកាន់បណ្តាញសង្គម</p>
+                    <button type="button" onClick='closeDialog()'>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="txt2_modal">
+                    <p>ចែករំលែកតំណនេះតាម</p>
+                </div>
+                <div class="social_modal">
+                    <div class="all_socail_modal">
+                        <div class="facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path
+                                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                        <div class="telegram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                                <defs>
+                                    <linearGradient id="logosTelegram0" x1="50%" x2="50%" y1="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#2AABEE" />
+                                        <stop offset="100%" stop-color="#229ED9" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#logosTelegram0)"
+                                    d="M128 0C94.06 0 61.48 13.494 37.5 37.49A128.038 128.038 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51c0-33.934-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0Z" />
+                                <path fill="#FFF"
+                                    d="M57.94 126.648c37.32-16.256 62.2-26.974 74.64-32.152c35.56-14.786 42.94-17.354 47.76-17.441c1.06-.017 3.42.245 4.96 1.49c1.28 1.05 1.64 2.47 1.82 3.467c.16.996.38 3.266.2 5.038c-1.92 20.24-10.26 69.356-14.5 92.026c-1.78 9.592-5.32 12.808-8.74 13.122c-7.44.684-13.08-4.912-20.28-9.63c-11.26-7.386-17.62-11.982-28.56-19.188c-12.64-8.328-4.44-12.906 2.76-20.386c1.88-1.958 34.64-31.748 35.26-34.45c.08-.338.16-1.598-.6-2.262c-.74-.666-1.84-.438-2.64-.258c-1.14.256-19.12 12.152-54 35.686c-5.1 3.508-9.72 5.218-13.88 5.128c-4.56-.098-13.36-2.584-19.9-4.708c-8-2.606-14.38-3.984-13.82-8.41c.28-2.304 3.46-4.662 9.52-7.072Z" />
+                            </svg>
+                        </div>
+                        <div class="twister">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39.2" height="32" viewBox="0 0 256 209">
+                                <path fill="#55acee"
+                                    d="M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52c0 4.117.465 8.125 1.36 11.97c-43.65-2.191-82.35-23.1-108.255-54.876c-4.52 7.757-7.11 16.78-7.11 26.404c0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661c0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475c-17.975 14.086-40.622 22.483-65.228 22.483c-4.24 0-8.42-.249-12.529-.734c23.243 14.902 50.85 23.597 80.51 23.597c96.607 0 149.434-80.031 149.434-149.435c0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="txt3_modal">
+                    <p>ឬចម្លងតំណនេះ</p>
+                </div>
+                <div class="copy_link">
+                    <div class="icon_copy">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path
+                                    d="M13.753 6.493h-3.506A2.244 2.244 0 0 1 8.382 5.5H6.25a.75.75 0 0 0-.743.648L5.5 6.25v13.505c0 .38.282.693.648.743l.204.013a.75.75 0 0 1-.102 1.494a2.25 2.25 0 0 1-2.245-2.096L4 19.755V6.25a2.25 2.25 0 0 1 2.096-2.245L6.25 4h1.763a2.247 2.247 0 0 1 2.234-2h3.506c1.158 0 2.11.875 2.234 2h1.763a2.25 2.25 0 0 1 2.245 2.096L20 6.25v5.504a.75.75 0 0 1-1.493.102l-.007-.102V6.25a.75.75 0 0 0-.648-.743L17.75 5.5h-2.132c-.403.6-1.088.993-1.865.993zM17 13.998h1a4 4 0 0 1 .204 7.995l-.2.005l-1 .004a1 1 0 0 1-.125-1.993l.116-.007L18 19.998a2 2 0 0 0 .15-3.995l-.15-.005h-1a1 1 0 0 1-.117-1.994l.117-.006h1h-1zm-4.5.004h1a1 1 0 0 1 .117 1.993l-.117.007h-1a2 2 0 0 0-.15 3.995l.15.005h1a1 1 0 0 1 .117 1.993l-.117.007h-1a4 4 0 0 1-.2-7.995l.2-.005h1h-1zM12.499 17H18a1 1 0 0 1 .117 1.993L18 19h-5.501a1 1 0 0 1-.117-1.993l.117-.007H18h-5.501zm1.254-13.5h-3.506a.747.747 0 0 0 0 1.493h3.506a.747.747 0 1 0 0-1.493z"
+                                    fill="currentColor" fill-rule="nonzero" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="txt_input">
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="btn_copy">
+                        <button>
+                            <p>ចម្លង</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Responsive menu hidden -->
     <div class="sidebar_full_container" id="popup">
         <div class="full_container_sidebar" id="closepopup">
@@ -26,7 +95,7 @@
                             <i onclick="closePopup()" class="fa-solid fa-xmark"></i>
                         </div>
                         <div class="box_logo">
-                            <img src="../img/miologo.png" alt="">
+                            <img src="./img/miologo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -41,22 +110,22 @@
                 <div class="menu_sidebar">
                     <ul class="nav_sidebar">
                         <li>
-                            <a style="color: #cc1c09;" href="../index.html">ទំព័រដើម</a>
+                            <a style="color: #cc1c09;" href="#">ទំព័រដើម</a>
                         </li>
                         <li>
-                            <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
+                            <a href="#">ព័ត៌មានថ្មីបំផុត</a>
                         </li>
                         <li>
-                            <a href="./pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
+                            <a href="#">សារព័ត៌មានប្រចាំថ្ងៃ</a>
                         </li>
                         <li>
-                            <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
+                            <a href="#">សកម្មភាពថ្នាក់ដឹកនាំ</a>
                         </li>
                         <li>
-                            <a href="./page5.html">សន្តិសុខសង្គម</a>
+                            <a href="#">សន្តិសុខសង្គម</a>
                         </li>
                         <li>
-                            <a href="./page6.html">វគ្គបណ្តុះបណ្តាល</a>
+                            <a href="#">វគ្គបណ្តុះបណ្តាល</a>
                         </li>
                         <li>
                             <a href="#">នគរបាល​ និង​ សហគមន៍</a>
@@ -220,19 +289,19 @@
                     <a href="../index.html">ទំព័រដើម</a>
                 </li>
                 <li>
-                    <a href="../html/page2.html">ព័ត៌មានថ្មីបំផុត</a>
+                    <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
                 </li>
                 <li>
-                    <a href="../html/pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
+                    <a href="./pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
                 </li>
                 <li>
-                    <a href="../html/page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
+                    <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
                 </li>
                 <li>
                     <a href="./page5.html">សន្តិសុខសង្គម</a>
                 </li>
-                <li>
-                    <a href="./page6.html">វគ្គបណ្តុះបណ្តាល</a>
+                <li class="item_active">
+                    <a class="active" href="#">វគ្គបណ្តុះបណ្តាល</a>
                 </li>
                 <li class="drop">
                     <a href="#">ផ្សេងៗ
@@ -275,148 +344,54 @@
     </nav>
     <!-- Finish Menu -->
 
-    <!-- detail and section1 -->
-    <div class="detail">
-        <div class="full_container_detail">
-            <div class="container_detail">
-                <section class="left_side_content">
-                    <p class="title_one">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                        ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                    </p>
-                    <div class="date_of_content">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V10h16v11zm0-13H4V5h16v3z" />
-                        </svg>
-                        <p class="txt_date">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                    </div>
-                    <div class="all_btn_media">
-                        <button class="btn_media1">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <p>Facebook</p>
-                        </button>
-                        <button class="btn_media2">
-                            <i class="fa-brands fa-telegram"></i>
-                            <p>Telegram</p>
-                        </button>
-                        <button class="btn_media3">
-                            <i class="fa-brands fa-twitter"></i>
-                            <p>Twitter</p>
-                        </button>
-                    </div>
-                    <p class="title_two">
-                        រាជធានីភ្នំពេញ ៖ នៅរសៀលថ្ងៃសុក្រ ទី០៦ ខែតុលា ឆ្នាំ២០២៣ ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                        ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ
-                        បានអញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការនូវអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                        ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ សម្តេចមហាបវរធិបតី ហ៊ុន ម៉ាណែត នាយករដ្ឋមន្ត្រី
-                        នៃព្រះរាជាណាចក្រកម្ពុជា នាពេលខាងមុខ។
+    <!-- title of news1 -->
+    <div class="full_container1">
+        <div class="container_1">
+            <div class="title_news">
+                <p>ព័ត៌មានថ្មីបំផុត</p>
+            </div>
+        </div>
+    </div>
+    <!-- finish title of news1 -->
 
-                        ក្នុងកិច្ចប្រជុំនេះ ក៏មានការអញ្ជើញចូលរួមពី ឯកឧត្តម រដ្ឋលេខាធិការប្រចាំការ ឯកឧត្តម លោកជំទាវ
-                        រដ្ឋលេខាធិការ អនុរដ្ឋលេខាធិការ ឯកឧត្តម លោកជំទាវ អគ្គនាយក នៃអគ្គនាយកដ្ឋានចំណុះក្រសួងមហាផ្ទៃ
-                        ព្រមទាំងមន្ត្រីពាក់ព័ន្ធជាច្រើនរូបទៀតផងដែរ៕
-                        រាជធានីភ្នំពេញ ៖ នៅរសៀលថ្ងៃសុក្រ ទី០៦ ខែតុលា ឆ្នាំ២០២៣ ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                        ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ
-                        បានអញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការនូវអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                        ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ សម្តេចមហាបវរធិបតី ហ៊ុន ម៉ាណែត នាយករដ្ឋមន្ត្រី
-                        នៃព្រះរាជាណាចក្រកម្ពុជា នាពេលខាងមុខ។
-                    </p>
-                    <div class="image_left_side">
-                        <img src="https://moitv.phsartech.com/file_manager/368011592_823191535835305_3734663528764051838_n-dc9ebd9d-ad14-4a93-98c0-653483497e53.jpg"
-                            alt="">
+    <!-- section 1 -->
+    <div class="full_sec1">
+        <div class="container_sec1">
+            <div class="all_box_item_sec1">
+                <div class="box_item_sec1">
+                    <div class="icon_radio">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9m2.9 11.3c-2.3-2.3-2.3-6.1 0-8.5" />
+                                <circle cx="12" cy="12" r="2" />
+                                <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5m2.9-11.4C23 8.8 23 15.1 19.1 19" />
+                            </g>
+                        </svg>
                     </div>
-                    <div class="image_left_side">
-                        <img src="https://moitv.phsartech.com/file_manager/368063872_823193959168396_6932557694531809023_n-5b0272d0-bde3-4722-a829-e6a01c1ce54c.jpg"
-                            alt="">
+                    <div class="text_one_sec1">
+                        <p>ព័ត៌មានប្រចាំថ្ងៃ</p>
                     </div>
-                    <div class="image_left_side">
-                        <img src="https://moitv.phsartech.com/file_manager/368281973_823193192501806_8840800255503052188_n-54efc7e5-97a5-4b4b-9e19-18c769f1fb80.jpg"
-                            alt="">
+                    <div class="date_sec1">
+                        <p>ថ្ងៃអាទិត្យ ទី២១ ខែឧសភា ឆ្នាំ២០២៣</p>
                     </div>
-                    <div class="image_left_side">
-                        <img src="https://moitv.phsartech.com/file_manager/368016509_823219262499199_3615295921368905894_n-7b6e2df9-9ea6-4369-9856-1c1d521ed1cb.jpg"
-                            alt="">
+                    <div class="btn">
+                        
                     </div>
-                </section>
-                <div class="aside_content">
-                    <div class="box_content_aside">
-                        <div class="box_header">
-                            <div class="box_title_header">
-                                <p>ព័ត៌មានថ្មីៗ</p>
-                            </div>
-                        </div>
-                        <div class="all_card_sidebar">
-                            <div class="right_card">
-                                <div class="card_aside">
-                                    <div class="box_image">
-                                        <img src="../img/news1_img1.jpg" alt="">
-                                    </div>
-                                    <div class="box_txt">
-                                        <p class="txt_card_aside">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                                            អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                                            ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                                        </p>
-                                        <p class="date_aside">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                                    </div>
-                                </div>
-                                <div class="card_aside">
-                                    <div class="box_image">
-                                        <img src="../img/news1_img2" alt="">
-                                    </div>
-                                    <div class="box_txt">
-                                        <p class="txt_card_aside">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                                            អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                                            ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                                        </p>
-                                        <p class="date_aside">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                                    </div>
-                                </div>
-                                <div class="card_aside">
-                                    <div class="box_image">
-                                        <img src="../img/news1_img3.jpg" alt="">
-                                    </div>
-                                    <div class="box_txt">
-                                        <p class="txt_card_aside">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                                            អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                                            ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                                        </p>
-                                        <p class="date_aside">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lefe_card">
-                                <div class="card_aside">
-                                    <div class="box_image">
-                                        <img src="../img/news1_img4.jpg" alt="">
-                                    </div>
-                                    <div class="box_txt">
-                                        <p class="txt_card_aside">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                                            អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                                            ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                                        </p>
-                                        <p class="date_aside">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                                    </div>
-                                </div>
-                                <div class="card_aside">
-                                    <div class="box_image">
-                                        <img src="../img/news1_img5.jpg" alt="">
-                                    </div>
-                                    <div class="box_txt">
-                                        <p class="txt_card_aside">ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា
-                                            អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់
-                                            ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ
-                                        </p>
-                                        <p class="date_aside">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="box_item_sec1">
+
+                </div>
+                <div class="box_item_sec1">
+
+                </div>
+                <div class="box_item_sec1">
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- finsih detail and section1  -->
-
+    <!-- finish section 1 -->
 
     <!-- footer  -->
     <div class="full_container_footer1">
@@ -588,6 +563,11 @@
 
 </body>
 
-<script src="../js/read_news.js"></script>
+<script src="../js/page6.js"></script>
+<!-- AOS scrip -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

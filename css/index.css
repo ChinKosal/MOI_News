@@ -119,16 +119,21 @@ form {
 
   display: flex;
 }
-.search form input {
+form input {
   width: 85%;
   height: 100%;
   padding: 10px;
   border-radius: 50px 0px 0px 50px;
-
   outline: none;
   border: none;
+  font-size: 16px;
+  font-family: var(--kantumruy_font);
 }
-
+form input::placeholder {
+  font-size: 16px;
+  font-family: var(--kantumruy_font);
+  font-weight: 500;
+}
 .search_icon {
   width: 15%;
   height: 100%;
@@ -549,6 +554,7 @@ form {
   width: 32.41%;
   height: 450px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: var(--white1_color) !important;
 
   overflow: hidden;
 }
