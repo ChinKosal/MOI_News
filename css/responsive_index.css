@@ -146,6 +146,10 @@
     height: 200vh;
   }
 
+  .full_modal {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(8px) !important;
+  }
   .container_box_modal {
     padding-top: 150px;
   }
