@@ -445,6 +445,7 @@ form {
   height: 100%;
   padding: 15px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  background-color: var(--white1_color) !important;
 }
 .box_content_aside .detail_content {
   position: sticky;
@@ -484,7 +485,6 @@ form {
   display: flex;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  background-color: var(--white1_color) !important;
 }
 .card_aside .box_image {
   width: 25%;
