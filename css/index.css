@@ -187,6 +187,13 @@ form input::placeholder {
   justify-content: space-between;
   gap: 10px;
 }
+.nav_menu .item_active {
+  background-color: var(--white1_color);
+  color: var(--blue_color);
+}
+.nav_menu .active {
+  color: var(--blue_color);
+}
 .nav_menu li {
   list-style: none;
   transition: 0.1s all;
