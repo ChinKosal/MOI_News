@@ -559,7 +559,7 @@ form {
 }
 
 .card_news1 .btn_share button {
-  height:35px;
+  height: 35px;
   width: auto;
   border: none;
   padding: 7px 5px;
@@ -596,44 +596,43 @@ form {
   border-radius: 10px;
   border: none;
   background-color: var(--gray_color);
-  color: var(--white1_color);
-  font-weight: 500;
-  font-family: var(--Sovanphum_font);
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2px;
-
-  transition: 0.2s all;
+  gap: 10px;
+}
+.btn_more_item .btn_back .txt_back {
+  color: var(--white1_color);
+  font-weight: 500;
+  font-family: var(--kantumruy_font);
+  font-size: 18px;
+}
+.btn_more_item .btn_back svg {
+  color: var(--white1_color);
 }
 .btn_more_item .btn_go {
   padding: 13px 20px;
   border-radius: 10px;
   border: none;
   background-color: var(--blue_color);
-  color: var(--white1_color);
-  font-weight: 500;
-  font-family: var(--Sovanphum_font);
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+  gap: 10px;
 }
-.btn_go .txt {
-  font-size: 18px;
-  opacity: 0.9;
+
+.btn_more_item .btn_go .txt_go {
+  color: var(--white1_color);
+  font-weight: 500;
   font-family: var(--kantumruy_font);
-
-  transition: 0.2s all;
+  font-size: 18px;
 }
-.btn_more_item .btn svg {
-  color: rgba(0, 0, 0, 0.638);
-
-  transition: 0.2s all;
+.btn_more_item .btn_go svg {
+  color: var(--white1_color);
 }
 /* finish card of news1 */
 
