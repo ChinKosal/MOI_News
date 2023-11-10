@@ -26,7 +26,7 @@ font-family: 'Suwannaphum', sans-serif; */
   --bokor_font: "Bokor", serif;
   --Sovanphum_font: "Suwannaphum", sans-serif;
 
-  --size_menu: 15px;
+  --size_menu: 13px;
 }
 
 body {
@@ -965,7 +965,7 @@ form {
   background-color: chartreuse;
 }
 /* video modal */
-.
+
 /* finish video modal */
 
 /* btn scroll top */
