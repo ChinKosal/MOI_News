@@ -6,7 +6,7 @@ function openPopup() {
 }
 
 function closePopup() {
-  document.getElementById("popup").style.right = "-850px";
+  document.getElementById("popup").style.right = "-2000px";
   document.getElementById("popup").style.transition = "0.4s";
   document.getElementById("closepopup").style.background = "none";
 }

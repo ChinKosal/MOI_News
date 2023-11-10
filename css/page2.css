@@ -39,7 +39,7 @@ html {
 /* haeder */
 .header {
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: var(--blue_color);
 }
 
@@ -101,6 +101,7 @@ html {
 .cicle_icon .padding_cicle_icon {
   width: 100%;
   height: 100%;
+  padding: 3px;
 
   border-radius: 50%;
 }
@@ -271,11 +272,15 @@ form {
 /* finsih navbar */
 
 /* section_1 */
+.full_container_page2 {
+  width: 100%;
+  height: auto;
+}
 .container_sec1_page2 {
   width: 70%;
-  height: auto;
+  height: 100%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .container_sec1_page2 .list_page {
   display: flex;
@@ -316,6 +321,7 @@ form {
 .item_one .title_box_sec1 span {
   margin-bottom: 10px;
   display: flex;
+  gap: 5px;
   color: var(--white1_color);
   font-size: 17px;
   font-family: var(--kantumruy_font);
@@ -655,7 +661,7 @@ form {
   flex-direction: row;
 }
 .container_footer1 .box_left {
-  width: 40%;
+  width: 35%;
   height: 100%;
 }
 .box_left .title1 {
@@ -698,7 +704,7 @@ form {
   color: var(--white1_color);
 }
 .container_footer1 .box_mit1 {
-  width: 15%;
+  width: 20%;
   height: 100%;
 }
 
@@ -754,7 +760,7 @@ form {
 }
 .box_mit2 .ios {
   width: 100%;
-  height: 70px;
+  height: 60px;
   margin-top: 15px;
 }
 .ios img {
@@ -763,7 +769,7 @@ form {
 }
 .box_mit2 .addriod {
   width: 100%;
-  height: 70px;
+  height: 60px;
   margin-top: 10px;
 }
 .addriod img {
@@ -836,7 +842,7 @@ form {
   position: fixed;
 
   overflow-y: hidden;
-  z-index: 9999;
+  z-index: 999999;
 }
 
 .full_container_sidebar {
@@ -1002,6 +1008,7 @@ form {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: none;
 }
 .header_modal button i {
   color: rgba(0, 0, 0, 0.608);
