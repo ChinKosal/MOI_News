@@ -350,6 +350,7 @@ form input::placeholder {
 .box_left_sec1 .date_sec1 {
   position: absolute;
   top: 87%;
+  font-family: var(--kantumruy_font);
 
   z-index: 1;
 }
@@ -425,7 +426,7 @@ form input::placeholder {
 }
 .box_detail_right_sec1 .txt .title_1 {
   color: var(--red_color);
-  padding: 5px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   font-family: var(--kantumruy_font);
   color: var(--blue_color);
   font-weight: 500;
@@ -591,8 +592,8 @@ form input::placeholder {
   padding: 15px 15px 5px 15px;
 }
 .card_news1 .box_title .txt1 {
-  font-size: 19px;
-  line-height: 35px;
+  font-size: 22px;
+  line-height: 30px;
   font-family: var(--kantumruy_font);
   color: var(--blue_color);
   font-weight: 500;
@@ -611,8 +612,8 @@ form input::placeholder {
 }
 
 .card_news1 .box_title .txt2 {
-  padding: 12px 0px 12px 0px;
-  font-size: 20px;
+  padding: 12px 0px 5px 0px;
+  font-size: 16px;
   font-family: var(--kantumruy_font);
   color: black;
   font-weight: 500;
@@ -620,8 +621,8 @@ form input::placeholder {
 }
 
 .card_news1 .box_title .txt3 {
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 30px;
   font-family: var(--kantumruy_font);
   color: black;
   font-weight: 500;
@@ -662,7 +663,7 @@ form input::placeholder {
   text-decoration: none;
 }
 .card_news1 .btn_share .btn svg {
-  color: rgba(0, 0, 0, 0.638);
+  color: var(--blue_color);
 
   transition: 0.2s all;
 }
@@ -1253,4 +1254,12 @@ form input::placeholder {
 .btn_scroll svg {
   color: var(--white1_color);
   opacity: 0.8;
+}
+
+/* fixed header */
+.header.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  transition: 0.5s all;
 }

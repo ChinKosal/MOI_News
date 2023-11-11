@@ -44,6 +44,7 @@ function closePopup() {
 
 // btn sroll top
 let mybutton = document.getElementById("myBtn");
+let fixed_header = document.getElementById("header");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -53,8 +54,10 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
+    fixed_header.classList.add("fixed");
   } else {
     mybutton.style.display = "none";
+    fixed_header.classList.remove("fixed");
   }
 }
 

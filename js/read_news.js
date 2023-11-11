@@ -14,7 +14,6 @@ function closePopup() {
 
 // btn sroll top
 let mybutton = document.getElementById("myBtn");
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
@@ -34,11 +33,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 // finish btn scroll top
-
-// click chhange svg in btn_slider_Card
-function chhangeIcon(x) {
-  x.classList.toggle("​​​fa-arrow-down-long");
-}
 
 // map
 function myMap() {
