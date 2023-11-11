@@ -542,9 +542,6 @@
   .nav_content .search {
     width: 50%;
   }
-  .nav_menu li a {
-    font-size: 14px;
-  }
 }
 /* 
 @media (min-width: 1492px) and (max-width: 2039.98px) {

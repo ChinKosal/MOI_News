@@ -276,14 +276,14 @@ form input::placeholder {
 .section_1 {
   margin-top: 10px;
   width: 100%;
-  height: auto;
+  height: 650px;
 
   overflow: hidden;
 }
 
 .container_sec_1 {
   width: 70%;
-  height: 630px;
+  height: 100%;
   margin: 0 auto;
 
   display: flex;
@@ -329,7 +329,7 @@ form input::placeholder {
   z-index: 99;
   top: 70%;
   color: var(--white1_color);
-  font-size: 24px;
+  font-size: 25px;
   font-family: var(--kantumruy_font);
   font-weight: 450;
   line-height: 35px;
@@ -367,7 +367,7 @@ form input::placeholder {
 .detail_date_sec1 .text2_box_left_sec1 {
   color: var(--white1_color);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   font-family: var(--kantumruy_font);
 }
 
@@ -556,8 +556,8 @@ form input::placeholder {
   margin: 0 auto;
 }
 .container_news1 .card_news1 {
-  width: 32.41%;
-  height: 600px;
+  width: 32%;
+  height: 450px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   background-color: var(--white1_color) !important;
 
@@ -591,7 +591,7 @@ form input::placeholder {
   padding: 15px 15px 5px 15px;
 }
 .card_news1 .box_title .txt1 {
-  font-size: 25px;
+  font-size: 19px;
   line-height: 35px;
   font-family: var(--kantumruy_font);
   color: var(--blue_color);
