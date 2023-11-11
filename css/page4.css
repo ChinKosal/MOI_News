@@ -122,14 +122,20 @@ form {
 
   display: flex;
 }
-.search form input {
+form input {
   width: 85%;
   height: 100%;
   padding: 10px;
   border-radius: 50px 0px 0px 50px;
-
   outline: none;
   border: none;
+  font-size: 16px;
+  font-family: var(--kantumruy_font);
+}
+form input::placeholder {
+  font-size: 16px;
+  font-family: var(--kantumruy_font);
+  font-weight: 500;
 }
 
 .search_icon {
