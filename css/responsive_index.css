@@ -479,7 +479,7 @@
 }
 
 /*  Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1119.98px) {
+@media (min-width: 992px) and (max-width: 1200.98px) {
   body {
     position: relative;
   }
@@ -566,7 +566,7 @@
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   body {
     position: relative;
   }
@@ -581,6 +581,9 @@
   }
   .nav_content .search {
     width: 50%;
+  }
+  .nav_menu a {
+    font-size: 13px;
   }
 
   .box_detail_right_sec1 .txt .title_1 {
