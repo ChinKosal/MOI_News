@@ -600,7 +600,7 @@
   /* card new 1 */
   .container_news1 .card_news1 {
     width: 31.7%;
-    height: 480px;
+    height: auto;
   }
   .card_news1 .box_title .txt1 {
     font-size: 19px;
@@ -610,6 +610,9 @@
   }
   .card_news1 .box_title .txt3 {
     font-size: 17px;
+  }
+  .card_news1 .btn_share {
+    padding-bottom: 80px;
   }
 
   /* finish card new 1  */

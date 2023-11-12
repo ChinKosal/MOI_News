@@ -113,7 +113,7 @@
 }
 .card_news1 .btn_share button {
   border: none;
-  padding: 7px 12px;
+  padding: 10px 12px;
   border-radius: 3px;
   background-color: var(--white1_color);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
@@ -126,7 +126,7 @@
   transition: 0.2s all;
 }
 .card_news1 .btn_share .btn .txt_share {
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.8;
   font-family: var(--kantumruy_font);
 
