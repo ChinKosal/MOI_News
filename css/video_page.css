@@ -294,8 +294,8 @@ form input::placeholder {
   gap: 20px;
 }
 .container_video_sec .box_video {
-  width: 32.51%;
-  height: 450px;
+  width: 32.3%;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .container_video_sec .box_img_video {

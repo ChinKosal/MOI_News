@@ -940,7 +940,7 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1569.98px) {
+@media (min-width: 1200px) {
   body {
     position: relative;
     overflow: hidden;
@@ -953,7 +953,7 @@
   }
 
   .full_container_page2 {
-    height: 470px;
+    height: auto;
   }
   .container_sec1_page2 .list_page {
     gap: 15px;
@@ -966,43 +966,11 @@
     line-height: 30px;
   }
   .title_box_sec1 .btn_read_more {
-    padding: 2px 10px;
+    padding: 4px 20px;
   }
-  .item_one .title_box_sec1 span .list_page .sidebar_item .all_item_sidebar {
-    gap: 15px;
-  }
-  .list_page .sidebar_item .all_item_sidebar .item_one_sidebar {
-    height: 144px;
-  }
-  .all_item_sidebar .item_one_sidebar .title_box_item {
-    padding: 5px 10px;
-  }
-  .item_one_sidebar .title_box_item p {
-    padding-top: 100px;
+  .title_box_sec1 .btn_read_more a {
+    font-family: var(--Sovanphum_font);
     font-size: 16px;
-  }
-}
-
-@media (min-width: 1570px) and (max-width: 1569.98px) {
-  body {
-    position: relative;
-    overflow: hidden;
-  }
-  html {
-    overflow-x: hidden;
-  }
-  .container_sec1_page2 .list_page {
-    gap: 15px;
-  }
-  .item_one .title_box_sec1 span {
-    font-size: 16px;
-  }
-  .item_one .title_box_sec1 p {
-    font-size: 19px;
-    line-height: 30px;
-  }
-  .title_box_sec1 .btn_read_more {
-    padding: 2px 10px;
   }
   .item_one .title_box_sec1 span .list_page .sidebar_item .all_item_sidebar {
     gap: 15px;

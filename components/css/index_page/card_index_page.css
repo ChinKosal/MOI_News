@@ -1,0 +1,181 @@
+/* card of news1 */
+.full_card_news1 {
+  width: 100%;
+  height: auto;
+}
+.full_card_news1 .container_news1 {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  margin: 0 auto;
+}
+.container_news1 .card_news1 {
+  width: 32%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: var(--white1_color) !important;
+
+  overflow: hidden;
+}
+.card_news1:hover .box_img img {
+  transform: scale(1.1);
+}
+
+.card_news1 .box_img {
+  width: 100%;
+  height: 50%;
+
+  overflow: hidden;
+}
+.card_news1 .box_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: 0.4s all;
+}
+.card_news1 .box_img:hover {
+  cursor: pointer;
+}
+
+.card_news1 .box_title {
+  width: 100%;
+  height: 50%;
+
+  padding: 15px 15px 5px 15px;
+}
+.card_news1 .box_title .txt1 {
+  font-size: 22px;
+  line-height: 30px;
+  font-family: var(--kantumruy_font);
+  color: var(--blue_color);
+  font-weight: 500;
+  text-decoration: underline;
+
+  display: inline;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+.card_news1 .box_title .txt1:hover {
+  cursor: pointer;
+}
+
+.card_news1 .box_title .txt2 {
+  padding: 12px 0px 5px 0px;
+  font-size: 16px;
+  font-family: var(--kantumruy_font);
+  color: black;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.card_news1 .box_title .txt3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: var(--kantumruy_font);
+  color: black;
+  font-weight: 500;
+  opacity: 0.8;
+
+  display: inline;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.card_news1 .btn_share {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.btn_share .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  transition: 0.2s all;
+}
+.btn_share .btn:hover {
+  cursor: pointer;
+  background-color: var(--blue_color);
+}
+.card_news1 .btn_share button {
+  border: none;
+  padding: 10px 12px;
+  border-radius: 3px;
+  background-color: var(--white1_color);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  text-decoration: none;
+}
+.card_news1 .btn_share .btn svg {
+  color: var(--gray_color);
+
+  transition: 0.2s all;
+}
+.card_news1 .btn_share .btn .txt_share {
+  font-size: 20px;
+  opacity: 0.8;
+  font-family: var(--kantumruy_font);
+
+  transition: 0.2s all;
+}
+.card_news1 .btn_share .btn:hover svg {
+  color: var(--white1_color);
+}
+.card_news1 .btn_share .btn:hover .txt_share {
+  color: var(--white1_color);
+}
+
+.btn_more_item {
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_more_item .btn {
+  border: none;
+  padding: 13px 14px;
+  border-radius: 3px;
+  background-color: var(--white1_color);
+  box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+  transition: 0.2s all;
+}
+.btn_more_item .btn:hover {
+  cursor: pointer;
+  gap: 6px;
+}
+.btn_more_item .btn .txt {
+  font-size: 18px;
+  opacity: 0.9;
+  font-family: var(--kantumruy_font);
+  color: rgba(0, 0, 0, 0.752);
+
+  transition: 0.2s all;
+}
+.btn_more_item .btn svg {
+  color: rgba(0, 0, 0, 0.638);
+
+  transition: 0.2s all;
+}
+/* finish card of news1 */
