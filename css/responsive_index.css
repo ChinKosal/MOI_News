@@ -573,17 +573,8 @@
   html {
     overflow-x: hidden;
   }
-  .nav_content .media {
-    gap: 20px;
-  }
-  .nav_content .media_icon {
-    width: 50%;
-  }
-  .nav_content .search {
-    width: 50%;
-  }
-  .nav_menu a {
-    font-size: 13px;
+  .nav_menu li a {
+    font-size: 14px;
   }
 
   .box_detail_right_sec1 .txt .title_1 {
