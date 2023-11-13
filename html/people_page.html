@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/people_page.css">
+    <link rel="stylesheet" href="../components/css/varibal.css">
+    <link rel="stylesheet" href="../components/css/header.css">
+    <link rel="stylesheet" href="../components/css/menu.css">
+    <link rel="stylesheet" href="../components/css/title.css">
+    <link rel="stylesheet" href="../components/css/footer.css">
+    <link rel="stylesheet" href="../components/css/modal.css">
+    <link rel="stylesheet" href="../components/css/none_data.css">
+    <link rel="stylesheet" href="../components/css/btn_scrolltop.css">
+    <link rel="stylesheet" href="../components/css/sidebar.css">
 
     <!-- font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -156,7 +164,7 @@
     <!-- finish Responsive menu hidden -->
 
     <!-- navbar -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="nav_content">
             <div class="media_logo">
                 <div class="logo">
@@ -281,64 +289,71 @@
     </header>
     <!-- finish navbar -->
 
+
     <!-- menu -->
     <nav class="navbar">
         <div class="menu">
             <ul class="nav_menu">
-                <li>
-                    <a href="../index.html">ទំព័រដើម</a>
-                </li>
-                <li>
-                    <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
-                </li>
-                <li>
-                    <a href="./pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
-                </li>
-                <li>
-                    <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
-                </li>
-                <li>
-                    <a href="./page5.html">សន្តិសុខសង្គម</a>
-                </li>
-                <li>
-                    <a href="./page6.html">វគ្គបណ្តុះបណ្តាល</a>
-                </li>
-                <li class="drop">
-                    <a href="#">ផ្សេងៗ
-                    </a>
-                    <div class="icon_drop">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024">
-                            <path fill="currentColor"
-                                d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8l316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
-                        </svg>
-                        <div class="dropdown">
-                            <ul class="ul_drop">
-                                <li>
-                                    <a href="./police_page.html">នគរបាល​ និង​ សហគមន៍</a>
-                                </li>
-                                <li>
-                                    <a href="./trafic.html">ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</a>
-                                </li>
-                                <li>
-                                    <a href="./trafic.html">សណ្ដាប់ធ្នាប់ និងចរាចរណ៍</a>
-                                </li>
-                                <li>
-                                    <a class="active" href="#">វេទិការពលរដ្ឋ និង នគរបាល</a>
-                                </li>
-                                <li>
-                                    <a href="./magazin.html">ទស្សនាវដ្ដី</a>
-                                </li>
-                                <li>
-                                    <a href="./video_page.html">វីដេអូ</a>
-                                </li>
-                                <li>
-                                    <a href="./radio_page.html">វិទ្យុ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
+                <a href="../index.html">
+                    <li>ទំព័រដើម</li>
+                </a>
+                <a href="./page2.html">
+                    <li>
+                        ព័ត៌មានថ្មីបំផុត
+                    </li>
+                </a>
+                <a href="../html/pageg3.html">
+                    <li>សារព័ត៌មានប្រចាំថ្ងៃ</li>
+                </a>
+                <a href="../html/page4.html">
+                    <li>សកម្មភាពថ្នាក់ដឹកនាំ</li>
+                </a>
+                <a href="../html/page5.html">
+                    <li>
+                        សន្តិសុខសង្គម
+                    </li>
+                </a>
+                <a href="../html/page6.html">
+                    <li>វគ្គបណ្តុះបណ្តាល</li>
+                </a>
+                <div class="last_item">
+                    <a href="#">
+                        <li class="drop">
+                            ផ្សេងៗ
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 1024 1024">
+                                    <path fill="currentColor"
+                                        d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8l316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+                                </svg></span>
 
+                            <div class="dropdown">
+                                <ul class="ul_drop">
+                                    <li>
+                                        <a href="./police_page.html">នគរបាល​ និង​ សហគមន៍</a>
+                                    </li>
+                                    <li>
+                                        <a href="../fighting.html">ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</a>
+                                    </li>
+                                    <li>
+                                        <a href="../trafic.html">សណ្ដាប់ធ្នាប់ និងចរាចរណ៍</a>
+                                    </li>
+                                    <li>
+                                        <a class="active_drop" href="../people_page.html">វេទិការពលរដ្ឋ និង នគរបាល</a>
+                                    </li>
+                                    <li>
+                                        <a href="../magazin.html">ទស្សនាវដ្ដី</a>
+                                    </li>
+                                    <li>
+                                        <a href="../video_page.html">វីដេអូ</a>
+                                    </li>
+                                    <li>
+                                        <a href="../radio_page.html">វិទ្យុ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </a>
+                </div>
             </ul>
         </div>
     </nav>

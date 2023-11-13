@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/page6.css">
+    <link rel="stylesheet" href="../components/css/varibal.css">
+    <link rel="stylesheet" href="../components/css/header.css">
+    <link rel="stylesheet" href="../components/css/menu.css">
+    <link rel="stylesheet" href="../components/css/page_2/section_page2.css">
+    <link rel="stylesheet" href="../components/css/title.css">
+    <link rel="stylesheet" href="../components/css/none_data.css">
+    <link rel="stylesheet" href="../components/css/footer.css">
+    <link rel="stylesheet" href="../components/css/modal.css">
+    <link rel="stylesheet" href="../components/css/btn_scrolltop.css">
+    <link rel="stylesheet" href="../components/css/sidebar.css">
+    <link rel="stylesheet" href="../css/responsive_page2.css">
 
     <!-- font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -95,7 +105,7 @@
                             <i onclick="closePopup()" class="fa-solid fa-xmark"></i>
                         </div>
                         <div class="box_logo">
-                            <img src="./img/miologo.png" alt="">
+                            <img src="../img/miologo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -110,22 +120,22 @@
                 <div class="menu_sidebar">
                     <ul class="nav_sidebar">
                         <li>
-                            <a style="color: #cc1c09;" href="#">ទំព័រដើម</a>
+                            <a style="color: #cc1c09;" href="../index.html">ទំព័រដើម</a>
                         </li>
                         <li>
-                            <a href="#">ព័ត៌មានថ្មីបំផុត</a>
+                            <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
                         </li>
                         <li>
-                            <a href="#">សារព័ត៌មានប្រចាំថ្ងៃ</a>
+                            <a href="./pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
                         </li>
                         <li>
-                            <a href="#">សកម្មភាពថ្នាក់ដឹកនាំ</a>
+                            <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
                         </li>
                         <li>
-                            <a href="#">សន្តិសុខសង្គម</a>
+                            <a href="./page5.html">សន្តិសុខសង្គម</a>
                         </li>
                         <li>
-                            <a href="#">វគ្គបណ្តុះបណ្តាល</a>
+                            <a href="./page6.html">វគ្គបណ្តុះបណ្តាល</a>
                         </li>
                         <li>
                             <a href="#">នគរបាល​ និង​ សហគមន៍</a>
@@ -156,7 +166,7 @@
     <!-- finish Responsive menu hidden -->
 
     <!-- navbar -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="nav_content">
             <div class="media_logo">
                 <div class="logo">
@@ -285,60 +295,66 @@
     <nav class="navbar">
         <div class="menu">
             <ul class="nav_menu">
-                <li>
-                    <a href="../index.html">ទំព័រដើម</a>
-                </li>
-                <li>
-                    <a href="./page2.html">ព័ត៌មានថ្មីបំផុត</a>
-                </li>
-                <li>
-                    <a href="./pageg3.html">សារព័ត៌មានប្រចាំថ្ងៃ</a>
-                </li>
-                <li>
-                    <a href="./page4.html">សកម្មភាពថ្នាក់ដឹកនាំ</a>
-                </li>
-                <li>
-                    <a href="./page5.html">សន្តិសុខសង្គម</a>
-                </li>
-                <li class="item_active">
-                    <a class="active" href="#">វគ្គបណ្តុះបណ្តាល</a>
-                </li>
-                <li class="drop">
-                    <a href="#">ផ្សេងៗ
-                    </a>
-                    <div class="icon_drop">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024">
-                            <path fill="currentColor"
-                                d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8l316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
-                        </svg>
-                        <div class="dropdown">
-                            <ul class="ul_drop">
-                                <li>
-                                    <a href="./police_page.html">នគរបាល​ និង​ សហគមន៍</a>
-                                </li>
-                                <li>
-                                    <a href="./fighting.html">ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</a>
-                                </li>
-                                <li>
-                                    <a href="./trafic.html">សណ្ដាប់ធ្នាប់ និងចរាចរណ៍</a>
-                                </li>
-                                <li>
-                                    <a href="./people_page.html">វេទិការពលរដ្ឋ និង នគរបាល</a>
-                                </li>
-                                <li>
-                                    <a href="./magazin.html">ទស្សនាវដ្ដី</a>
-                                </li>
-                                <li>
-                                    <a href="./video_page.html">វីដេអូ</a>
-                                </li>
-                                <li>
-                                    <a href="./radio_page.html">វិទ្យុ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
+                <a href="../index.html">
+                    <li>ទំព័រដើម</li>
+                </a>
+                <a href="#">
+                    <li>
+                        ព័ត៌មានថ្មីបំផុត
+                    </li>
+                </a>
+                <a href="../html/pageg3.html">
+                    <li>សារព័ត៌មានប្រចាំថ្ងៃ</li>
+                </a>
+                <a href="../html/page4.html">
+                    <li>សកម្មភាពថ្នាក់ដឹកនាំ</li>
+                </a>
+                <a href="./page5.html">
+                    <li>
+                        សន្តិសុខសង្គម
+                    </li>
+                </a>
+                <a class="item_active" href="#">
+                    <li class="active">វគ្គបណ្តុះបណ្តាល</li>
+                </a>
+                <div class="last_item">
+                    <a href="#">
+                        <li class="drop">
+                            ផ្សេងៗ
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 1024 1024">
+                                    <path fill="currentColor"
+                                        d="M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8l316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z" />
+                                </svg></span>
 
+                            <div class="dropdown">
+                                <ul class="ul_drop">
+                                    <li>
+                                        <a href="../html/police_page.html">នគរបាល​ និង​ សហគមន៍</a>
+                                    </li>
+                                    <li>
+                                        <a href="../fighting.html">ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</a>
+                                    </li>
+                                    <li>
+                                        <a href="../trafic.html">សណ្ដាប់ធ្នាប់ និងចរាចរណ៍</a>
+                                    </li>
+                                    <li>
+                                        <a href="../people_page.html">វេទិការពលរដ្ឋ និង នគរបាល</a>
+                                    </li>
+                                    <li>
+                                        <a href="../magazin.html">ទស្សនាវដ្ដី</a>
+                                    </li>
+                                    <li>
+                                        <a href="../video_page.html">វីដេអូ</a>
+                                    </li>
+                                    <li>
+                                        <a href="../radio_page.html">វិទ្យុ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </a>
+                </div>
             </ul>
         </div>
     </nav>
@@ -346,64 +362,66 @@
 
     <!-- secdtion 1 -->
     <section>
-        <div class="container_sec1">
-            <div class="list_page">
-                <div class="item_one">
-                    <div class="image_sec1">
-                        <img src="../img/news1_img1.jpg" alt="">
-                    </div>
-                    <div class="title_box_sec1">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10ZM5 8h14V6H5v2Zm0 0V6v2Zm7 6q-.425 0-.713-.288T11 13q0-.425.288-.713T12 12q.425 0 .713.288T13 13q0 .425-.288.713T12 14Zm-4 0q-.425 0-.713-.288T7 13q0-.425.288-.713T8 12q.425 0 .713.288T9 13q0 .425-.288.713T8 14Zm8 0q-.425 0-.713-.288T15 13q0-.425.288-.713T16 12q.425 0 .713.288T17 13q0 .425-.288.713T16 14Zm-4 4q-.425 0-.713-.288T11 17q0-.425.288-.713T12 16q.425 0 .713.288T13 17q0 .425-.288.713T12 18Zm-4 0q-.425 0-.713-.288T7 17q0-.425.288-.713T8 16q.425 0 .713.288T9 17q0 .425-.288.713T8 18Zm8 0q-.425 0-.713-.288T15 17q0-.425.288-.713T16 16q.425 0 .713.288T17 17q0 .425-.288.713T16 18Z" />
-                            </svg>
-                            ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣
-                        </span>
-                        <p>សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត
-                            អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
-                        <div class="btn_read_more">
-                            <a href="../html/read_news.html">អានបន្ថែម</a>
+        <div class="full_container_page2">
+            <div class="container_sec1_page2">
+                <div class="list_page">
+                    <div class="item_one">
+                        <div class="image_sec1">
+                            <img src="../img/news1_img1.jpg" alt="">
+                        </div>
+                        <div class="title_box_sec1">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10ZM5 8h14V6H5v2Zm0 0V6v2Zm7 6q-.425 0-.713-.288T11 13q0-.425.288-.713T12 12q.425 0 .713.288T13 13q0 .425-.288.713T12 14Zm-4 0q-.425 0-.713-.288T7 13q0-.425.288-.713T8 12q.425 0 .713.288T9 13q0 .425-.288.713T8 14Zm8 0q-.425 0-.713-.288T15 13q0-.425.288-.713T16 12q.425 0 .713.288T17 13q0 .425-.288.713T16 14Zm-4 4q-.425 0-.713-.288T11 17q0-.425.288-.713T12 16q.425 0 .713.288T13 17q0 .425-.288.713T12 18Zm-4 0q-.425 0-.713-.288T7 17q0-.425.288-.713T8 16q.425 0 .713.288T9 17q0 .425-.288.713T8 18Zm8 0q-.425 0-.713-.288T15 17q0-.425.288-.713T16 16q.425 0 .713.288T17 17q0 .425-.288.713T16 18Z" />
+                                </svg>
+                                ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣
+                            </span>
+                            <p>សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត
+                                អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
+                            <div class="btn_read_more">
+                                <a href="../html/read_news.html">អានបន្ថែម</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sidebar_item">
-                    <div class="all_item_sidebar">
-                        <div class="item_one_sidebar">
-                            <a href="../html/read_news.html">
-                                <div class="image_item">
-                                    <img src="../img/news1_img3.jpg" alt="">
-                                </div>
-                                <div class="title_box_item">
-                                    <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
-                                        ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
-                                        និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item_one_sidebar">
-                            <a href="../html/read_news.html">
-                                <div class="image_item">
-                                    <img src="../img/news1_img5.jpg" alt="">
-                                </div>
-                                <div class="title_box_item">
-                                    <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
-                                        ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
-                                        និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item_one_sidebar">
-                            <a href="../html/read_news.html">
-                                <div class="image_item">
-                                    <img src="../img/news1_img2" alt="">
-                                </div>
-                                <div class="title_box_item">
-                                    <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
-                                        ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
-                                        និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
-                                </div>
-                            </a>
+                    <div class="sidebar_item">
+                        <div class="all_item_sidebar">
+                            <div class="item_one_sidebar">
+                                <a href="../html/read_news.html">
+                                    <div class="image_item">
+                                        <img src="../img/news1_img3.jpg" alt="">
+                                    </div>
+                                    <div class="title_box_item">
+                                        <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
+                                            ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
+                                            និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item_one_sidebar">
+                                <a href="../html/read_news.html">
+                                    <div class="image_item">
+                                        <img src="../img/news1_img5.jpg" alt="">
+                                    </div>
+                                    <div class="title_box_item">
+                                        <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
+                                            ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
+                                            និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item_one_sidebar">
+                                <a href="../html/read_news.html">
+                                    <div class="image_item">
+                                        <img src="../img/news1_img2" alt="">
+                                    </div>
+                                    <div class="title_box_item">
+                                        <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញចូលរួមក្នុងពិធីជួបសំណេះសំណាល
+                                            ពិសាភោជនាហារជាមួយសមាជិករាជរដ្ឋាភិបាលក្នុងអាណត្តិទី៦
+                                            និងសមាជិករាជរដ្ឋាភិបាលអាណត្តិទី៧</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -413,13 +431,15 @@
     <!-- finish section 1 -->
 
     <!-- title of news1 -->
-    <div class="full_container1">
-        <div class="container_1">
-            <div class="title_news">
-                <p>ព័ត៌មានថ្មីបំផុត</p>
+    <section>
+        <div class="full_container1">
+            <div class="container_1">
+                <div class="title_news">
+                    <p>ព័ត៌មានថ្មីបំផុត</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- finish title of news1 -->
 
     <!-- no data section -->
@@ -437,7 +457,6 @@
         </div>
     </div>
     <!-- fnish no data section -->
-
 
     <!-- footer  -->
     <div class="full_container_footer1">
@@ -609,7 +628,7 @@
 
 </body>
 
-<script src="../js/page6.js"></script>
+<script src="../js/page2.js"></script>
 <!-- AOS scrip -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

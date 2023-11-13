@@ -126,4 +126,7 @@
 .nav_sidebar li:hover {
   cursor: pointer;
 }
+.menu_sidebar .nav_sidebar .active_sidebar {
+  color: var(--red_color);
+}
 /* finish sidebar responsive */
