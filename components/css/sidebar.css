@@ -8,7 +8,7 @@
   position: fixed;
 
   overflow-y: hidden;
-  z-index: 9999;
+  z-index: 99999999;
 }
 
 .full_container_sidebar {
