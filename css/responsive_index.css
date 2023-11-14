@@ -135,11 +135,12 @@
     height: auto;
   }
   .all_item_sidebar .item_one_sidebar .title_box_item {
-    padding: 10px 15px;
+    padding: 10px 5px 10px 15px;
   }
   .item_one_sidebar .title_box_item p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: start;
+    padding-top: 160px;
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -358,7 +359,7 @@
   /* finish modal */
 
   /* raed news  */
-  
+
   /* finish read news */
 
   /*  */
