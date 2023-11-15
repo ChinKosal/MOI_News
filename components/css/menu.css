@@ -30,10 +30,23 @@ font-family: 'Poppins', sans-serif; */
   width: 100%;
   height: auto;
   background-color: var(--red_color);
-  position: sticky;
-  top: 0;
 
   z-index: 9999;
+}
+.navbar.fixedmenu {
+  position: fixed;
+  top: 0;
+  animation: fadeIndown 0.7s ease-in-out;
+}
+@keyframes fadeIndown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 .menu {
   width: 70%;

@@ -44,6 +44,7 @@ function closePopup() {
 
 // btn sroll top
 let mybutton = document.getElementById("myBtn");
+let menufixd = document.querySelector(".navbar");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -51,10 +52,12 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block";
+    menufixd.classList.add("fixedmenu");
   } else {
     mybutton.style.display = "none";
+    menufixd.classList.remove("fixedmenu");
   }
 }
 
@@ -102,23 +105,7 @@ window.addEventListener("scroll", () => {
     `${window.scrollY}px`
   );
 });
-// Set event handlers for each button
 
-// slider
-// var swiper = new Swiper(".swiper-container", {
-//   direction: "vertical", // Set the direction to 'vertical'
-//   slidesPerView: "auto", // Set to 1 to show one slide at a time
-//   spaceBetween: 0, // No space between slides
-//   loop: true,
-//   autoplay: {
-//     delay: 1000, // Adjust autoplay delay in milliseconds
-//     disableOnInteraction: false,
-//   },
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
 // Get the button element
 // Wait for the DOM to be ready
 document.addEventListener("DOMContentLoaded", function () {
@@ -141,12 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Get the button element
-  var prevSlideButton = document.getElementById('prevSlideButton');
+  var prevSlideButton = document.getElementById("prevSlideButton");
 
   // Check if the button element exists
   if (prevSlideButton) {
     // Add click event listener to the button
-    prevSlideButton.addEventListener('click', function () {
+    prevSlideButton.addEventListener("click", function () {
       // Move to the previous slide
       swiper.slidePrev();
     });
