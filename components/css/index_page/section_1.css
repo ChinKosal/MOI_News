@@ -131,9 +131,12 @@
   position: relative;
   width: 35%;
   height: 100%;
+  overflow-x: auto;
   /* background-color: chartreuse; */
 }
+
 .box_right_sec1 .box_detail_right_sec1 {
+  scroll-snap-align: start;
   width: 100%;
   height: 20%;
   border-bottom: 1px solid var(--gray_color);
@@ -227,13 +230,7 @@
 .btn_slide_card button:hover {
   background-color: var(--blue_color);
 }
-.btn_slide_card button #icon_luck {
-  display: none;
-}
-.btn_slide_card button:hover #icon_unluck {
-  display: none;
-}
 .btn_slide_card button:hover #icon_luck {
-  display: inline;
+  column-rule: var(--white1_color);
 }
 /* finish section_1 */

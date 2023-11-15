@@ -372,11 +372,12 @@
     overflow: hidden;
   }
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   section {
     padding: 0px 15px;
   }
+  /* header */
   .media .media_icon {
     width: 100%;
     padding-right: 100px;
@@ -406,7 +407,9 @@
   .navbar {
     display: none;
   }
+  /* finish header */
 
+  /* section page 1 */
   .section_1 {
     height: 390px;
   }
@@ -446,7 +449,60 @@
   .container_news1 .card_news1 {
     width: 48.62%;
   }
+  /* finish section page 1 */
 
+  /* section page 2 */
+  .container_sec1_page2 {
+    width: 100%;
+  }
+  .container_sec1_page2 .list_page {
+    flex-direction: column;
+  }
+  .list_page .item_one {
+    width: 100%;
+  }
+  .list_page .sidebar_item {
+    width: 100%;
+  }
+  .list_page .sidebar_item .all_item_sidebar {
+    display: flex;
+  }
+  .item_one .title_box_sec1 span {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  .item_one .title_box_sec1 p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .title_box_sec1 .btn_read_more {
+    height: auto;
+    padding: 4px 10px;
+  }
+  .title_box_sec1 .btn_read_more a {
+    font-size: 15px;
+  }
+  .list_page .sidebar_item .all_item_sidebar .item_one_sidebar {
+    height: auto;
+  }
+  .all_item_sidebar .item_one_sidebar .title_box_item {
+    padding: 10px 5px 10px 15px;
+  }
+  .item_one_sidebar .title_box_item p {
+    font-size: 16px;
+    text-align: start;
+    padding-top: 160px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  /* finish section page 2 */
+
+  /* footer */
   .full_container_footer1 .container_footer1 {
     padding: 0px 15px;
     flex-direction: column;
@@ -507,6 +563,11 @@
   html {
     overflow-x: hidden;
   }
+  section {
+    padding: 0px 15px;
+  }
+
+  /* header */
   .header .nav_content {
     width: 100%;
     padding-left: 10px;
@@ -540,34 +601,100 @@
   .navbar {
     display: none;
   }
-  .container_sec_1 {
+  /* finish header */
+
+  /* section page 2 */
+  .container_sec1_page2 {
     width: 100%;
-    padding: 0px 10px;
   }
-  .box_left_sec1 {
+  .container_sec1_page2 .list_page {
+    flex-direction: column;
+  }
+  .list_page .item_one {
     width: 100%;
+  }
+  .list_page .sidebar_item {
+    width: 100%;
+  }
+  .list_page .sidebar_item .all_item_sidebar {
+    display: flex;
+  }
+  .item_one .title_box_sec1 span {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  .item_one .title_box_sec1 p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .title_box_sec1 .btn_read_more {
+    height: auto;
+    padding: 4px 10px;
+  }
+  .title_box_sec1 .btn_read_more a {
+    font-size: 15px;
+  }
+  .list_page .sidebar_item .all_item_sidebar .item_one_sidebar {
+    height: auto;
+  }
+  .all_item_sidebar .item_one_sidebar .title_box_item {
+    padding: 10px 5px 10px 15px;
+  }
+  .item_one_sidebar .title_box_item p {
+    font-size: 16px;
+    text-align: start;
+    padding-top: 160px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  /* finish section page 2 */
+
+  /* card page 2 */
+  .full_card_page2 .container_card_page2 {
+    width: 100%;
+  }
+  .container_card_page2 .card_page2 {
+    height: auto;
   }
 
-  .box_right_sec1 {
-    display: none;
+  .card_page2 .box_title {
+    padding: 5px 15px 10px 10px;
   }
-
-  .full_container1 {
-    padding: 0px 10px;
+  .card_page2 .box_title a {
+    text-decoration: none;
   }
+  .card_page2 .box_title .txt1 {
+    font-size: 19px;
+    line-height: 28px;
+    text-decoration: none;
+    padding-top: 5px;
+  }
+  .card_page2 .box_title .txt3 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .card_page2 .btn_share .txt_share {
+    font-size: 14px;
+  }
+  .card_page2 .btn_share button {
+    height: auto;
+    padding: 4px 6px;
+  }
+  .btn_share .date_card1 .txt2 {
+    font-size: 15px;
+  }
+  /* title news */
   .full_container1 .container_1 {
     width: 100%;
   }
+  /* finish title news */
 
-  .full_card_news1 .container_news1 {
-    width: 100%;
-    gap: 10px;
-    padding: 0px 10px 0px 10px;
-  }
-  .container_news1 .card_news1 {
-    width: 49.33%;
-  }
-
+  /* footer */
   .full_container_footer1 {
     padding: 10px;
   }
@@ -615,6 +742,7 @@
     height: 100%;
     margin-top: 12px;
   }
+  /* footer */
 }
 
 /*  Large devices (desktops, 992px and up) */
