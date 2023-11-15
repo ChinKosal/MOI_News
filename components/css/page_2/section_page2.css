@@ -26,10 +26,14 @@
   overflow: hidden;
   position: relative;
 }
+.item_one .image_sec1 {
+  width: 100%;
+  height: 100%;
+}
 .item_one .image_sec1 img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .item_one .title_box_sec1 {
   width: 100%;
@@ -110,6 +114,7 @@
   object-fit: cover;
 }
 .all_item_sidebar .item_one_sidebar .title_box_item {
+  position: relative;
   width: 100%;
   height: 100%;
   padding: 10px 40px;
@@ -124,11 +129,12 @@
   );
 }
 .item_one_sidebar .title_box_item p {
+  position: absolute;
   color: var(--white1_color);
   font-family: var(--Sovanphum_font);
-  font-size: 20px;
-  padding-top: 140px;
-  text-align: center;
+  font-size: 18px;
+  top: 75%;
+  padding: 0px 20px 0px 20px;
 
   overflow: hidden;
   text-overflow: ellipsis;

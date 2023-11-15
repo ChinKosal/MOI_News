@@ -14,6 +14,7 @@
   margin: 0 auto;
 
   display: flex;
+  gap: 20px;
   flex-direction: row;
 }
 .container_footer1 .box_left {
@@ -115,7 +116,7 @@
   font-weight: 500;
 }
 .box_mit2 .ios {
-  width: 90%;
+  width: 100%;
   height: 60px;
   margin-top: 15px;
 }
@@ -124,7 +125,7 @@
   height: 100%;
 }
 .box_mit2 .addriod {
-  width: 90%;
+  width: 100%;
   height: 60px;
   margin-top: 15px;
 }

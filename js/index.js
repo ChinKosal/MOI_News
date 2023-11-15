@@ -103,3 +103,54 @@ window.addEventListener("scroll", () => {
   );
 });
 // Set event handlers for each button
+
+// slider
+// var swiper = new Swiper(".swiper-container", {
+//   direction: "vertical", // Set the direction to 'vertical'
+//   slidesPerView: "auto", // Set to 1 to show one slide at a time
+//   spaceBetween: 0, // No space between slides
+//   loop: true,
+//   autoplay: {
+//     delay: 1000, // Adjust autoplay delay in milliseconds
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+// Get the button element
+// Wait for the DOM to be ready
+document.addEventListener("DOMContentLoaded", function () {
+  // Initialize Swiper
+  var swiper = new Swiper(".swiper-container", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    effect: "slide", // Use the slide effect
+    speed: 1000, // Set the transition speed in milliseconds
+  });
+
+  // Get the button element
+  var prevSlideButton = document.getElementById('prevSlideButton');
+
+  // Check if the button element exists
+  if (prevSlideButton) {
+    // Add click event listener to the button
+    prevSlideButton.addEventListener('click', function () {
+      // Move to the previous slide
+      swiper.slidePrev();
+    });
+  } else {
+    console.error("Button element not found.");
+  }
+});
