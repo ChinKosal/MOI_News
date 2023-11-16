@@ -131,23 +131,9 @@ document.addEventListener("DOMContentLoaded", function () {
     speed: 1000, // Set the transition speed in milliseconds
   });
 
-  var scrollToTopButton = document.getElementById("scrollToTopButton");
-  var nextButton = document.getElementById("nextButton");
-
-  swiper.on("slideChange", function () {
-    var activeIndex = swiper.activeIndex;
-    // Show/hide the button based on the active index
-    if (activeIndex === 0) {
-      nextButton.style.display = "block";
-      scrollToTopButton.style.display = "none"; // hide the button
-    } else {
-      nextButton.style.display = "none";
-      scrollToTopButton.style.display = "block"; // show the button
-    }
-  });
-  document.getElementById("nextButton").addEventListener("click", function () {
-    swiper.slideNext();
-  });
+  // document.getElementById("nextButton").addEventListener("click", function () {
+  //   swiper.slideNext();
+  // });
 
   document
     .getElementById("scrollToTopButton")

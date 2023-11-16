@@ -328,4 +328,7 @@
 .asside_slider .icon_slider button i {
   color: var(--white1_color);
 }
+#nextButton {
+  display: none;
+}
 /* finish slider */
