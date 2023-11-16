@@ -45,6 +45,7 @@ function closePopup() {
 // btn sroll top
 let mybutton = document.getElementById("myBtn");
 let menufixd = document.querySelector(".navbar");
+let headerfixed = document.querySelector(".header");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -55,9 +56,11 @@ function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block";
     menufixd.classList.add("fixedmenu");
+    headerfixed.classList.add("fixedheader");
   } else {
     mybutton.style.display = "none";
     menufixd.classList.remove("fixedmenu");
+    headerfixed.classList.remove("fixedheader");
   }
 }
 
@@ -106,6 +109,7 @@ window.addEventListener("scroll", () => {
   );
 });
 
+// slider js
 // Get the button element
 // Wait for the DOM to be ready
 document.addEventListener("DOMContentLoaded", function () {
@@ -126,18 +130,4 @@ document.addEventListener("DOMContentLoaded", function () {
     effect: "slide", // Use the slide effect
     speed: 1000, // Set the transition speed in milliseconds
   });
-
-  // Get the button element
-  var prevSlideButton = document.getElementById("prevSlideButton");
-
-  // Check if the button element exists
-  if (prevSlideButton) {
-    // Add click event listener to the button
-    prevSlideButton.addEventListener("click", function () {
-      // Move to the previous slide
-      swiper.slidePrev();
-    });
-  } else {
-    console.error("Button element not found.");
-  }
 });

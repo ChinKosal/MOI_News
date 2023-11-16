@@ -308,6 +308,8 @@
   position: absolute;
   top: 80%;
   right: 50%;
+
+  z-index: 10;
 }
 .asside_slider .icon_slider button {
   width: 35px;

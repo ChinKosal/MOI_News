@@ -14,16 +14,23 @@ function closePopup() {
 
 // btn sroll top
 let mybutton = document.getElementById("myBtn");
+let menufixd = document.querySelector(".navbar");
+let headerfixed = document.querySelector(".header");
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     mybutton.style.display = "block";
+    menufixd.classList.add("fixedmenu");
+    headerfixed.classList.add("fixedheader");
   } else {
     mybutton.style.display = "none";
+    menufixd.classList.remove("fixedmenu");
+    headerfixed.classList.remove("fixedheader");
   }
 }
 
@@ -32,7 +39,6 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// finish btn scroll top
 
 // map
 function myMap() {
