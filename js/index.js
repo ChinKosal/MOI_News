@@ -130,4 +130,13 @@ document.addEventListener("DOMContentLoaded", function () {
     effect: "slide", // Use the slide effect
     speed: 1000, // Set the transition speed in milliseconds
   });
+  document.getElementById("nextButton").addEventListener("click", function () {
+    swiper.slideNext();
+  });
+
+  document
+    .getElementById("scrollToTopButton")
+    .addEventListener("click", function () {
+      swiper.slidePrev();
+    });
 });
