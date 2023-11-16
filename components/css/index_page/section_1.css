@@ -126,7 +126,9 @@
 .click_sec1 .all_icon .btn_sec1:hover svg {
   color: var(--red_color);
 }
-
+.btn_sec1.activeIcon {
+  background-color: var(--red_color);
+}
 .box_right_sec1 {
   position: relative;
   width: 35%;

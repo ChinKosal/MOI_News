@@ -134,10 +134,14 @@
   width: 100%;
   height: 500px;
 }
+.image_left_side {
+  width: 100%;
+  height: 100%;
+}
 .image_left_side img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .container_detail .aside_content {
@@ -186,7 +190,7 @@
 
   display: flex;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: var(--white1_color);
 }
 .card_aside .box_image {
   width: 25%;

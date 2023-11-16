@@ -21,9 +21,9 @@ var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("btn_sec1");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+    var current = document.getElementsByClassName("activeIcon");
+    current[0].className = current[0].className.replace(" activeIcon", "");
+    this.className += " activeIcon";
   });
 }
 //  finish add active
