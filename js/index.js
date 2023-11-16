@@ -130,6 +130,9 @@ document.addEventListener("DOMContentLoaded", function () {
     effect: "slide", // Use the slide effect
     speed: 1000, // Set the transition speed in milliseconds
   });
+
+  var nextButton = document.getElementById("nextButton");
+  var scrollToTopButton = document.getElementById("scrollToTopButton");
   document.getElementById("nextButton").addEventListener("click", function () {
     swiper.slideNext();
   });
@@ -139,4 +142,18 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", function () {
       swiper.slidePrev();
     });
+
+  // Add event listener for slide change
+  swiper.on("slideChange", function () {
+    // Check if swiper is at the beginning
+    if (swiper.isBeginning) {
+      // Hide scrollToTopButton and show nextButton
+      scrollToTopButton.style.display = "none";
+      nextButton.style.display = "block";
+    } else {
+      // Hide nextButton and show scrollToTopButton
+      nextButton.style.display = "none";
+      scrollToTopButton.style.display = "block";
+    }
+  });
 });
