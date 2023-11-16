@@ -770,6 +770,26 @@
     padding-top: 5px;
   }
   /* finish none data section */
+
+  /* card magazi */
+  .full_card_magazin .container_magazin {
+    width: 100%;
+  }
+  .container_magazin .card_magazin {
+    width: 48.1%;
+    height: 22rem;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 14px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  /* finish card magazin */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1072,6 +1092,36 @@
     padding-top: 5px;
   }
   /* finish none data section */
+
+  /* card magazin  */
+  .full_card_magazin .container_magazin {
+    width: 100%;
+  }
+  .container_magazin .card_magazin {
+    width: 48.5%;
+    height: 24rem;
+  }
+  .card_magazin .box_img {
+    height: 55%;
+  }
+  .card_magazin .box_title_magazin {
+    height: 45%;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 16px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  .card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
+    font-size: 15px;
+  }
+
+  /* finish card magazin */
 }
 
 /*  Large devices (desktops, 992px and up) */
@@ -1207,6 +1257,35 @@
   .box_right .map_box {
     height: 180px;
   }
+
+  /* card magazin */
+  .full_card_magazin .container_magazin {
+    width: 100%;
+  }
+  .container_magazin .card_magazin {
+    width: 31.9%;
+  }
+  .card_magazin .box_img {
+    height: 55%;
+  }
+  .card_magazin .box_title_magazin {
+    height: 45%;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 13px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  .card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
+    font-size: 15px;
+  }
+
+  /* finish card magazin */
 }
 
 /*  Extra large devices (large desktops, 1117px and 1199.98px) */
@@ -1333,6 +1412,35 @@
     height: 45px;
   }
   /* finish footer */
+
+  /* card magazin */
+  .full_card_magazin .container_magazin {
+    width: 100%;
+  }
+  .container_magazin .card_magazin {
+    width: 32.1%;
+  }
+  .card_magazin .box_img {
+    height: 55%;
+  }
+  .card_magazin .box_title_magazin {
+    height: 45%;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 13px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  .card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
+    font-size: 15px;
+  }
+
+  /* finish card magazin */
 }
 
 @media (min-width: 1200px) {
@@ -1473,4 +1581,27 @@
     height: 50px;
   }
   /* finish footer */
+
+  /* card magazin */
+  .container_magazin .card_magazin {
+    width: 32.2%;
+    height: 23rem;
+  }
+  .card_magazin .box_img {
+    height: 55%;
+  }
+  .card_magazin .box_title_magazin {
+    height: 45%;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 14px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  /* finish card magazin */
 }

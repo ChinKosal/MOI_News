@@ -100,8 +100,8 @@
   background-color: var(--blue_color);
 }
 .card_magazin .btn_read_magazin button {
-  border: none;
-  padding: 10px 12px;
+  border: 1px solid rgba(128, 128, 128, 0.548);
+  padding: 7px 10px;
   border-radius: 3px;
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
   text-decoration: none;
