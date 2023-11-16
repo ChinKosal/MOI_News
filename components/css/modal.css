@@ -51,6 +51,9 @@
   color: rgba(0, 0, 0, 0.608);
   font-size: 30px;
 }
+.header_modal button:hover {
+  cursor: pointer;
+}
 .txt2_modal p {
   color: black;
   font-family: var(--kantumruy_font);

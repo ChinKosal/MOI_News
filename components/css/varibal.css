@@ -9,6 +9,8 @@ font-family: 'Suwannaphum', sans-serif; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #ffffff;
 }
 
 :root {
@@ -33,4 +35,18 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--blue_color);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
 }
