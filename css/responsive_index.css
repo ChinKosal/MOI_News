@@ -7,6 +7,9 @@
   html {
     overflow-x: hidden;
   }
+  section {
+    padding: 0px 10px;
+  }
   /* .section_1 {
     margin-top: 90px;
   } */
@@ -449,6 +452,33 @@
   }
   /* finish read news */
 
+  /* magazin card */
+  .full_card_magazin .container_magazin {
+    width: 100%;
+    gap: 15px;
+  }
+  .container_magazin .card_magazin {
+    width: 48.6%;
+    height: 21rem;
+  }
+  .card_magazin .box_title_magazin .txt_magazin {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 14px;
+  }
+  .card_magazin .btn_read_magazin {
+    padding-top: 10px;
+  }
+  .card_magazin .btn_read_magazin button {
+    padding: 7px 10px;
+  }
+  .card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
+    font-size: 14px;
+  }
+
+  /* finish magazin card */
   /* video card */
   /* finish video card */
 }
@@ -1312,6 +1342,7 @@
   html {
     overflow-x: hidden;
   }
+
   /* header */
   .header {
     height: 90px;

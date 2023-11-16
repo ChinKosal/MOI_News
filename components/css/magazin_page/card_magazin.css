@@ -14,7 +14,7 @@
 }
 .container_magazin .card_magazin {
   width: 32.3%;
-  height: 420px;
+  height: 24rem;
   padding: 0px 0px 20px 0px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   background-color: var(--white1_color) !important;
@@ -42,16 +42,16 @@
   cursor: pointer;
 }
 
-.card_magazin .box_title {
+.card_magazin .box_title_magazin {
   width: 100%;
   height: 50%;
 
   padding: 15px;
 }
-.card_magazin .box_title a {
+.card_magazin .box_title_magazin a {
   text-decoration: none;
 }
-.card_magazin .box_title .txt1 {
+.card_magazin .box_title_magazin .txt_magazin {
   font-size: 22px;
   line-height: 35px;
   font-family: var(--kantumruy_font);
@@ -66,11 +66,11 @@
   -webkit-box-orient: vertical;
   word-wrap: break-word;
 }
-.card_magazin .box_title .txt1:hover {
+.card_magazin .box_title_magazin .txt_magazin:hover {
   cursor: pointer;
 }
 
-.card_magazin .box_title .txt2 {
+.card_magazin .box_title_magazin .txt2_magazin {
   padding: 12px 0px 12px 0px;
   font-size: 18px;
   font-family: var(--kantumruy_font);
@@ -79,14 +79,14 @@
   opacity: 0.8;
 }
 
-.card_magazin .btn_share {
+.card_magazin .btn_read_magazin {
   padding-top: 20px;
   width: 100%;
   display: flex;
   justify-content: end;
   background-color: var(--white1_color);
 }
-.card_magazin .btn_share .btn {
+.card_magazin .btn_read_magazin .btn_magazin {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,37 +95,36 @@
   transition: 0.2s all;
   background-color: var(--white1_color);
 }
-.card_magazin .btn_share .btn:hover {
+.card_magazin .btn_read_magazin .btn_magazin:hover {
   cursor: pointer;
   background-color: var(--blue_color);
 }
-.card_magazin .btn_share button {
+.card_magazin .btn_read_magazin button {
   border: none;
   padding: 10px 12px;
   border-radius: 3px;
-  font-size: 14px;
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
   text-decoration: none;
 }
-.card_magazin .btn_share .btn svg {
+.card_magazin .btn_read_magazin .btn_magazin svg {
   color: var(--blue_color);
   transition: 0.2s all;
 }
-.card_magazin .btn_share .btn .txt_share {
+.card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
   font-size: 16px;
-  font-family: var(--Dongrek_font);
+  font-family: var(--kantumruy_font);
   color: var(--blue_color);
 
   transition: 0.2s all;
 }
-.card_magazin .btn_share .btn:hover .txt_share {
+.card_magazin .btn_read_magazin .btn_magazin:hover .txt_magazin_btn {
   color: var(--white1_color);
 }
-.card_magazin .btn_share .btn:hover svg {
+.card_magazin .btn_read_magazin .btn_magazin:hover svg {
   color: var(--white1_color);
 }
 
-.card_magazin .btn_more_item {
+.btn_more_item {
   width: 70%;
   height: 100px;
   margin: 0 auto;
@@ -134,49 +133,47 @@
   justify-content: center;
   gap: 30px;
 }
-.card_magazin .btn_more_item .btn_back {
+.btn_more_item .btn_back {
   padding: 13px 20px;
   border-radius: 10px;
   border: none;
   background-color: var(--gray_color);
-  color: var(--white1_color);
-  font-weight: 500;
-  font-family: var(--Sovanphum_font);
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2px;
-
-  transition: 0.2s all;
+  gap: 10px;
 }
-.card_magazin .btn_more_item .btn_go {
+.btn_more_item .btn_back .txt_back {
+  color: var(--white1_color);
+  font-weight: 500;
+  font-family: var(--kantumruy_font);
+  font-size: 18px;
+}
+.btn_more_item .btn_back svg {
+  color: var(--white1_color);
+}
+.btn_more_item .btn_go {
   padding: 13px 20px;
   border-radius: 10px;
   border: none;
   background-color: var(--blue_color);
-  color: var(--white1_color);
-  font-weight: 500;
-  font-family: var(--Sovanphum_font);
   box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+  gap: 10px;
 }
-.card_magazin .btn_more_item .btn_back,
-.btn_go .txt {
-  font-size: 18px;
-  opacity: 0.9;
+
+.btn_more_item .btn_go .txt_go {
+  color: var(--white1_color);
+  font-weight: 500;
   font-family: var(--kantumruy_font);
-
-  transition: 0.2s all;
+  font-size: 18px;
 }
-.card_magazin .btn_more_item .btn svg {
-  color: rgba(0, 0, 0, 0.638);
-
-  transition: 0.2s all;
+.btn_more_item .btn_go svg {
+  color: var(--white1_color);
 }
 /* finish card of news1 */

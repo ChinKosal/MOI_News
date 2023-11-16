@@ -48,5 +48,5 @@ html {
 *::-webkit-scrollbar-thumb {
   background-color: var(--blue_color);
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
 }
