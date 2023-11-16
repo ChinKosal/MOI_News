@@ -131,8 +131,20 @@ document.addEventListener("DOMContentLoaded", function () {
     speed: 1000, // Set the transition speed in milliseconds
   });
 
-  var nextButton = document.getElementById("nextButton");
   var scrollToTopButton = document.getElementById("scrollToTopButton");
+  var nextButton = document.getElementById("nextButton");
+
+  swiper.on("slideChange", function () {
+    var activeIndex = swiper.activeIndex;
+    // Show/hide the button based on the active index
+    if (activeIndex === 0) {
+      nextButton.style.display = "block";
+      scrollToTopButton.style.display = "none"; // hide the button
+    } else {
+      nextButton.style.display = "none";
+      scrollToTopButton.style.display = "block"; // show the button
+    }
+  });
   document.getElementById("nextButton").addEventListener("click", function () {
     swiper.slideNext();
   });
@@ -142,18 +154,4 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", function () {
       swiper.slidePrev();
     });
-
-  // Add event listener for slide change
-  swiper.on("slideChange", function () {
-    // Check if swiper is at the beginning
-    if (swiper.isBeginning) {
-      // Hide scrollToTopButton and show nextButton
-      scrollToTopButton.style.display = "none";
-      nextButton.style.display = "block";
-    } else {
-      // Hide nextButton and show scrollToTopButton
-      nextButton.style.display = "none";
-      scrollToTopButton.style.display = "block";
-    }
-  });
 });

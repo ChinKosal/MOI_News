@@ -318,7 +318,7 @@
   height: 35px;
   border-radius: 50%;
   border: none;
-  background-color: rgba(0, 0, 0, 0.278);
+  background-color: rgba(0, 0, 0, 0.199);
   background-color: none;
 }
 .asside_slider .icon_slider button:hover {
@@ -327,8 +327,5 @@
 }
 .asside_slider .icon_slider button i {
   color: var(--white1_color);
-}
-#nextButton {
-  display: none;
 }
 /* finish slider */
