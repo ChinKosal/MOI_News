@@ -5,15 +5,14 @@
 }
 .full_card_news1 .container_news1 {
   width: 70%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
 
   margin: 0 auto;
 }
 .container_news1 .card_news1 {
-  width: 32%;
+  width: 100%;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   background-color: var(--white1_color) !important;
