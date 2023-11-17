@@ -1,6 +1,6 @@
 /* box modal */
 .full_modal {
-  visibility: hidden;
+  display: none;
   position: fixed;
   top: 0;
   width: 100%;

@@ -96,7 +96,7 @@ font-family: 'Poppins', sans-serif; */
 }
 .nav_menu .drop {
   position: relative;
-  z-index: 9999999;
+  z-index: 99999;
 
   transition: 0.2s all;
 }

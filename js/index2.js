@@ -50,27 +50,15 @@ function myMap() {
 }
 
 // modal
-const showDialog = () => {
-  document.getElementById("dialog").classList.add("show");
-  const scrollY = document.documentElement.style.getPropertyValue("--scroll-y");
-  const body = document.body;
-  body.style.position = "fixed";
-  body.style.top = `-${scrollY}`;
-};
-const closeDialog = () => {
-  const body = document.body;
-  const scrollY = body.style.top;
-  body.style.position = "";
-  body.style.top = "";
-  window.scrollTo(0, parseInt(scrollY || "0") * -1);
-  document.getElementById("dialog").classList.remove("show");
-};
-window.addEventListener("scroll", () => {
-  document.documentElement.style.setProperty(
-    "--scroll-y",
-    `${window.scrollY}px`
-  );
-});
+// modal
+// Function to toggle the visibility of the modal
+function toggleDialog() {
+  var modal = document.getElementById("dialog");
+  modal.style.display =
+    modal.style.display === "none" || modal.style.display === ""
+      ? "block"
+      : "none";
+}
 // Set event handlers for each button
 
 // JavaScript function to toggle the visibility of the modal and set the video source
