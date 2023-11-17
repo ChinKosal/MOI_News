@@ -1,0 +1,62 @@
+:root {
+  --blue_color: #004d9b;
+  --red_color: #cc1c09;
+  --white1_color: #f9f9f9;
+  --gray_color: #cccccc;
+  --body_color: #ebedef;
+
+  --koulen_font: "Koulen", sans-serif;
+  --kantumruy_font: "Kantumruy Pro", sans-serif;
+  --moul_font: "Moul", serif;
+  --poppin_font: "Poppins", sans-serif;
+  --bokor_font: "Bokor", serif;
+  --Sovanphum_font: "Suwannaphum", sans-serif;
+
+  --size_menu: 13px;
+}
+
+.video_modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.558);
+
+  z-index: 999999999999999;
+}
+.container_video_mmodal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.container_video_mmodal .exit_modal {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+}
+.container_video_mmodal .exit_modal i {
+  color: rgba(255, 255, 255, 0.823);
+  font-size: 30px;
+}
+.container_video_mmodal .exit_modal i:hover {
+  cursor: pointer;
+}
+.box_modal_video {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  width: 65%;
+  height: 40rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.box_ifram {
+  width: 100%;
+  height: 100%;
+}
+.box_ifram iframe {
+  width: 100%;
+  height: 100%;
+}
+.video_modal {
+  display: none;
+}

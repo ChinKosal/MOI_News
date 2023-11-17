@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../components/css/vido_page/card_vido.css">
     <link rel="stylesheet" href="../components/css/btn_scrolltop.css">
     <link rel="stylesheet" href="../components/css/sidebar.css">
+    <link rel="stylesheet" href="../components/css/modal_video.css">
     <link rel="stylesheet" href="../css/responsive_index.css">
 
     <!-- font link -->
@@ -24,17 +25,25 @@
 </head>
 
 <body>
-    <!-- <section>
+    <section>
         <div class="video_modal">
             <div class="container_video_mmodal">
+                <div class="exit_modal" onclick="toggleModal()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
                 <div class="box_modal_video">
                     <div class="box_ifram">
-
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o7hl9ou71V0"
+                            title="សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញសម្ពោធសមិទ្ធផលនានា និងបិទវគ្គបណ្ដុះបណ្ដាលកម្រិតបឋមវិជ្ជាជីវៈនគរបាល..."
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <!-- <iframe id="videoIframe" width="560" height="315" frameborder="0" allowfullscreen></iframe> -->
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="full_modal" id="dialog">
         <div class="container_box_modal">
@@ -390,9 +399,9 @@
         <div class="full_video_sec">
             <div class="container_video_sec">
                 <div class="all_card_video">
-                    <div class="box_video">
+                    <div class="box_video" id="card1" onclick="toggleModal()">
                         <div class="box_img_video">
-                            <a href="https://youtu.be/Dv-ED_WtPME">
+                            <a href="#">
                                 <img src="https://img.youtube.com/vi/Dv-ED_WtPME/0.jpg" alt="">
                             </a>
                             <div class="icon_video">
@@ -410,7 +419,7 @@
                         </div>
                     </div>
 
-                    <div class="box_video">
+                    <div class="box_video" id="card2" onclick="toggleModal()">
                         <div class="box_img_video">
                             <a href="#">
                                 <img src="https://img.youtube.com/vi/o7hl9ou71V0/0.jpg" alt="">
@@ -430,7 +439,7 @@
                         </div>
                     </div>
 
-                    <div class="box_video">
+                    <div class="box_video" id="card3" onclick="toggleModal()">
                         <div class="box_img_video">
                             <a href="#">
                                 <img src="https://img.youtube.com/vi/3u8jw89JF9Q/0.jpg" alt="">
@@ -450,7 +459,7 @@
                         </div>
                     </div>
 
-                    <div class="box_video">
+                    <div class="box_video" id="card4" onclick="toggleModal()">
                         <div class="box_img_video">
                             <a href="#">
                                 <img src="https://img.youtube.com/vi/xf1RLp9X19w/0.jpg" alt="">
@@ -470,7 +479,7 @@
                         </div>
                     </div>
 
-                    <div class="box_video">
+                    <div class="box_video" id="card5" onclick="toggleModal()">
                         <div class="box_img_video">
                             <a href="#">
                                 <img src="https://img.youtube.com/vi/jHukqpV0WM0/0.jpg" alt="">
@@ -490,7 +499,7 @@
                         </div>
                     </div>
 
-                    <div class="box_video">
+                    <div class="box_video" id="card6" onclick="toggleModal()">
                         <div class="box_img_video">
                             <a href="#">
                                 <img src="https://img.youtube.com/vi/Kclp0Z6brTo/0.jpg" alt="">

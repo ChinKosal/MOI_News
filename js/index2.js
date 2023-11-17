@@ -72,3 +72,48 @@ window.addEventListener("scroll", () => {
   );
 });
 // Set event handlers for each button
+
+// JavaScript function to toggle the visibility of the modal and set the video source
+function toggleModal(cardId) {
+  var modal = document.querySelector(".video_modal");
+  var videoIframe = document.getElementById("videoIframe");
+  var videoSource;
+
+  switch (cardId) {
+    case "card1":
+      videoSource = "https://youtu.be/Dv-ED_WtPME";
+      break;
+    case "card2":
+      videoSource = "https://youtu.be/o7hl9ou71V0";
+    case "card3":
+      videoSource = "https://youtu.be/3u8jw89JF9Q";
+    case "card4":
+      videoSource = "https://youtu.be/xf1RLp9X19w";
+    case "card5":
+      videoSource = "https://youtu.be/jHukqpV0WM0";
+    case "card6":
+      videoSource = "https://youtu.be/Kclp0Z6brTo";
+      break;
+    // Add more cases as needed for additional cards
+    default:
+      videoSource = "";
+      break;
+  }
+
+  if (modal.style.display === "none" || modal.style.display === "") {
+    modal.style.display = "block";
+    videoIframe.src = videoSource; // Set the video source based on the card identifier
+  } else {
+    modal.style.display = "none";
+    videoIframe.src = ""; // Clear the video source when hiding the modal
+  }
+}
+
+// Add event listeners to all cards
+var cards = document.querySelectorAll(".card");
+cards.forEach(function (card) {
+  card.addEventListener("click", function () {
+    var cardId = this.id;
+    toggleModal(cardId);
+  });
+});

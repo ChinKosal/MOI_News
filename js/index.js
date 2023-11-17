@@ -1,32 +1,44 @@
 // change picture
+function pictureChange(buttonNumber, imagePath) {
+  var image = document.getElementById("themImage");
+  image.style.opacity = 0;
+
+  setTimeout(function () {
+    image.onload = function () {
+      image.style.opacity = 1;
+    };
+    image.src = imagePath;
+    setActiveButton(buttonNumber);
+  }, 300); // Adjust the delay to match the transition duration (0.3s in this case)
+}
 function pictureChange1() {
-  document.getElementById("themImage").src = "./img/sec_1_img_1.jpg";
+  pictureChange(1, "./img/sec_1_img_1.jpg");
 }
 function pictureChange2() {
-  document.getElementById("themImage").src = "./img/sec_1_img_2.jpg";
+  pictureChange(2, "./img/sec_1_img_2.jpg");
 }
 function pictureChange3() {
-  document.getElementById("themImage").src = "./img/sec_1_img_3";
+  pictureChange(3, "./img/sec_1_img_3");
 }
 function pictureChange4() {
-  document.getElementById("themImage").src = "./img/sec_1_img_4.jpg";
+  pictureChange(4, "./img/sec_1_img_4.jpg");
 }
 function pictureChange5() {
-  document.getElementById("themImage").src = "./img/sec_1_img_5";
+  pictureChange(5, "./img/sec_1_img_5");
 }
-// finish change picture
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("btn_sec1");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("activeIcon");
-    current[0].className = current[0].className.replace(" activeIcon", "");
-    this.className += " activeIcon";
+function setActiveButton(btnNumber) {
+  // Remove active class from all buttons
+  var buttons = document.querySelectorAll(".btn_sec1");
+  buttons.forEach(function (button) {
+    button.classList.remove("active");
   });
+
+  // Add active class to the clicked button
+  var activeButton = document.getElementById("btn" + btnNumber);
+  if (activeButton) {
+    activeButton.classList.add("active");
+  }
 }
-//  finish add active
 
 // popup
 function openPopup() {

@@ -116,6 +116,17 @@
   .asside_slider {
     display: none;
   }
+  .item_one_sidebar .title_box_item p {
+    top: 0%;
+    padding: 0;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
   /* finish section page 1 */
 
   /* section page 2 */
@@ -457,22 +468,34 @@
     width: 100%;
     gap: 15px;
   }
+  .card_magazin .box_img {
+    height: 77%;
+  }
+  .card_magazin .box_title_magazin {
+    height: 23%;
+  }
   .container_magazin .card_magazin {
-    width: 48.6%;
-    height: 21rem;
+    width: 100%;
+    height: 40rem;
   }
   .card_magazin .box_title_magazin .txt_magazin {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 28px;
   }
+  .card_magazin .box_title_magazin .txt_magazin:hover {
+    text-decoration: underline;
+  }
   .card_magazin .box_title_magazin .txt2_magazin {
-    font-size: 14px;
+    font-size: 15px !important;
   }
   .card_magazin .btn_read_magazin {
-    padding-top: 10px;
+    padding-top: 1px !important;
   }
   .card_magazin .btn_read_magazin button {
     padding: 7px 10px;
+  }
+  .card_magazin .box_title_magazin .txt2_magazin {
+    font-size: 9px;
   }
   .card_magazin .btn_read_magazin .btn_magazin .txt_magazin_btn {
     font-size: 14px;
