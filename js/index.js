@@ -30,13 +30,13 @@ function setActiveButton(btnNumber) {
   // Remove active class from all buttons
   var buttons = document.querySelectorAll(".btn_sec1");
   buttons.forEach(function (button) {
-    button.classList.remove("active");
+    button.classList.remove("active_icon");
   });
 
   // Add active class to the clicked button
   var activeButton = document.getElementById("btn" + btnNumber);
   if (activeButton) {
-    activeButton.classList.add("active");
+    activeButton.classList.add("active_icon");
   }
 }
 

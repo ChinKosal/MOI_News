@@ -335,6 +335,6 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.btn_sec1.active {
+.active_icon {
   background-color: #ff0000;
 }

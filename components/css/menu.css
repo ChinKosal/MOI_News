@@ -62,7 +62,6 @@ font-family: 'Poppins', sans-serif; */
 }
 .nav_menu .item_active {
   background-color: var(--white1_color);
-  color: var(--blue_color);
 }
 .nav_menu .active {
   color: var(--blue_color);
