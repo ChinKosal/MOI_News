@@ -136,9 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
   //   swiper.slideNext();
   // });
 
-  document.getElementById("scrollToTopButton1").addEventListener("click", function () {
-    swiper.slidePrev();
-});
+  document
+    .getElementById("scrollToTopButton1")
+    .addEventListener("click", function () {
+      swiper.slidePrev();
+    });
 });
 
 // JavaScript function to toggle the visibility of the modal and set the video source

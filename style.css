@@ -632,7 +632,7 @@ form input::placeholder {
   background-color: none;
 }
 .asside_slider .icon_slider button:hover {
-  background-color: rgba(0, 0, 255, 0.379);
+  background-color: rgba(0, 0, 0, 0.589);
   cursor: pointer;
 }
 .asside_slider .icon_slider button i {
