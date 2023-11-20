@@ -569,6 +569,7 @@ form input::placeholder {
   width: 100%;
   height: 90px;
   display: flex;
+  justify-content: space-between;
   background-color: var(--white1_color);
 }
 .box_card_slider .box_title_slider {
@@ -606,7 +607,7 @@ form input::placeholder {
 .box_card_slider .box_img_slider {
   width: 35%;
   height: 100%;
-  padding: 10px 0px;
+  padding: 7px 0px;
   border-bottom: 1px solid var(--gray_color);
 }
 .box_img_slider img {
