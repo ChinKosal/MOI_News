@@ -12,19 +12,19 @@ function pictureChange(buttonNumber, imagePath) {
   }, 300); // Adjust the delay to match the transition duration (0.3s in this case)
 }
 function pictureChange1() {
-  pictureChange(1, "./assets/img/sec_1_img_1.jpg");
+  pictureChange(1, "./img/sec_1_img_1.jpg");
 }
 function pictureChange2() {
-  pictureChange(2, "./assets/img/sec_1_img_2.jpg");
+  pictureChange(2, "./img/sec_1_img_2.jpg");
 }
 function pictureChange3() {
-  pictureChange(3, "./assets/img/sec_1_img_3");
+  pictureChange(3, "./img/sec_1_img_3");
 }
 function pictureChange4() {
-  pictureChange(4, "./assets/img/sec_1_img_4.jpg");
+  pictureChange(4, "./img/sec_1_img_4.jpg");
 }
 function pictureChange5() {
-  pictureChange(5, "./assets/img/sec_1_img_5");
+  pictureChange(5, "./img/sec_1_img_5");
 }
 function setActiveButton(btnNumber) {
   // Remove active class from all buttons
