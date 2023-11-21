@@ -202,13 +202,13 @@
     text-decoration: none;
   }
   .card_page2 .box_title .txt1 {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 28px;
     text-decoration: none;
     padding-top: 5px;
   }
   .card_page2 .box_title .txt3 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.685);
   }
@@ -769,7 +769,7 @@
     text-decoration: none;
   }
   .card_page2 .box_title .txt1 {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 28px;
     text-decoration: none;
     padding-top: 5px;
@@ -1222,7 +1222,7 @@
     padding-top: 5px;
   }
   .card_page2 .box_title .txt3 {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.685);
   }
@@ -1919,7 +1919,7 @@
     text-decoration: none;
   }
   .card_page2 .box_title .txt1 {
-    font-size: 20px;
+    font-size: 19px;
     text-decoration: none;
   }
   .card_page2 .btn_share button {
@@ -1933,7 +1933,7 @@
     font-size: 16px;
   }
   .card_page2 .btn_share .txt2 {
-    font-size: 16px;
+    font-size: 19px;
     color: rgba(0, 0, 0, 0.685);
   }
   .card_page2 .btn_share svg {
