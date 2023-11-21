@@ -757,7 +757,7 @@ form input::placeholder {
   padding: 12px 0px 5px 0px;
   font-size: 16px;
   font-family: var(--kantumruy_font);
-  color: black;
+  color: rgba(0, 0, 0, 0.703);
   font-weight: 500;
   opacity: 0.8;
 }
@@ -767,7 +767,7 @@ form input::placeholder {
   font-size: 20px;
   line-height: 30px;
   font-family: var(--kantumruy_font);
-  color: black;
+  color: rgba(0, 0, 0, 0.638);
   font-weight: 500;
   opacity: 0.8;
 

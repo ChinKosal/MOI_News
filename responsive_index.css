@@ -286,7 +286,7 @@
   }
 
   .full_container_sidebar .box_sidebar {
-    width:100%;
+    width: 100%;
   }
   /* finish footer */
 
@@ -1866,8 +1866,8 @@
     font-size: 14px;
   }
   .card_news1 .box_title .txt3 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .card_news1 .btn_share button {
     height: 40px;
