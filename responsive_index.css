@@ -990,7 +990,7 @@
     font-size: 16px;
   }
   .left_side_content .image_left_side {
-    height: 300px;
+    height: 100%;
   }
 
   .container_detail .aside_content {
@@ -1466,7 +1466,7 @@
     font-size: 16px;
   }
   .left_side_content .image_left_side {
-    height: 300px;
+    height: 100%;
   }
 
   .container_detail .aside_content {
