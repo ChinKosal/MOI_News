@@ -466,8 +466,9 @@
     height: 80px;
   }
   .all_card_sidebar {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2px;
   }
   .right_card {
@@ -888,14 +889,6 @@
   }
   /* finish card magazin */
 
-  /* vido card */
-  .all_card_video {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-  }
-  /* finish video card */
-
   /* modal video */
   .container_video_mmodal {
     padding: 15px !important;
@@ -918,11 +911,19 @@
     width: 100%;
   }
   .container_sec1 .all_box_item_sec1 {
-    width: 100%;
-    height: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 1.2rem;
+  }
+
+  /* card video */
+  .container_video_sec {
+    width: 100%;
+  }
+  .container_video_sec .all_card_video {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
@@ -1255,9 +1256,17 @@
 
   /* vido card */
   .all_card_video {
-    width: 100%;
+    width: 100% !important;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .container_video_sec .description_video .title_video {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .container_video_sec .description_video .date_video {
+    padding-top: 35px;
+    font-size: 14px;
   }
   /* finish video card */
 
