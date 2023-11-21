@@ -1858,15 +1858,19 @@
   /* finsih section 1 */
 
   /* card page 1 */
+  .card_news1 .box_title a {
+    text-decoration: none !important;
+  }
   .card_news1 .box_title .txt1 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
+    text-decoration: none;
   }
   .card_news1 .box_title .txt2 {
     font-size: 14px;
   }
   .card_news1 .box_title .txt3 {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 25px;
   }
   .card_news1 .btn_share button {
@@ -1919,7 +1923,7 @@
     text-decoration: none;
   }
   .card_page2 .box_title .txt1 {
-    font-size: 19px;
+    font-size: 20px;
     text-decoration: none;
   }
   .card_page2 .btn_share button {
