@@ -11,10 +11,6 @@
     padding: 0px 10px;
   }
 
-  /* .section_1 {
-    margin-top: 90px;
-  } */
-
   /* navbar */
   .navbar {
     display: none;
@@ -468,7 +464,7 @@
   .all_card_sidebar {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2px;
   }
   .right_card {
@@ -925,6 +921,101 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
   }
+
+  /* raed news  */
+  .detail {
+    margin-top: 20px;
+  }
+  .detail .full_container_detail {
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+  }
+  .full_container_detail .container_detail {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container_detail .left_side_content {
+    width: 100%;
+  }
+  .left_side_content .title_one {
+    font-size: 19px;
+    line-height: 35px;
+  }
+  .left_side_content .title_two {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  .left_side_content .date_of_content {
+    margin-top: 10px;
+  }
+  .date_of_content .txt_date {
+    font-size: 13px;
+  }
+  .left_side_content .all_btn_media {
+    gap: 15px;
+  }
+  .left_side_content .btn_media1 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media1 i {
+    font-size: 11px;
+  }
+  .btn_media1 p {
+    font-size: 11px;
+  }
+  .left_side_content .btn_media2 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media2 i {
+    font-size: 11px;
+  }
+  .btn_media2 p {
+    font-size: 11px;
+  }
+  .left_side_content .btn_media3 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media3 i {
+    font-size: 11px;
+  }
+  .btn_media3 p {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .left_side_content .title_two {
+    font-size: 16px;
+  }
+  .left_side_content .image_left_side {
+    height: 300px;
+  }
+
+  .container_detail .aside_content {
+    width: 100%;
+  }
+  .aside_content .card_aside {
+    height: 80px;
+  }
+  .all_card_sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+  }
+  .right_card {
+    width: 100%;
+  }
+  .lefe_card {
+    width: 100%;
+  }
+  .card_aside .box_txt .txt_card_aside {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* finish read news */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1306,6 +1397,101 @@
   .box_item_sec1 .date_sec1 {
     left: 25% !important;
   }
+
+  /* raed news  */
+  .detail {
+    margin-top: 20px;
+  }
+  .detail .full_container_detail {
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+  }
+  .full_container_detail .container_detail {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container_detail .left_side_content {
+    width: 100%;
+  }
+  .left_side_content .title_one {
+    font-size: 19px;
+    line-height: 35px;
+  }
+  .left_side_content .title_two {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  .left_side_content .date_of_content {
+    margin-top: 10px;
+  }
+  .date_of_content .txt_date {
+    font-size: 13px;
+  }
+  .left_side_content .all_btn_media {
+    gap: 15px;
+  }
+  .left_side_content .btn_media1 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media1 i {
+    font-size: 11px;
+  }
+  .btn_media1 p {
+    font-size: 11px;
+  }
+  .left_side_content .btn_media2 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media2 i {
+    font-size: 11px;
+  }
+  .btn_media2 p {
+    font-size: 11px;
+  }
+  .left_side_content .btn_media3 {
+    width: 110px;
+    height: auto;
+  }
+  .btn_media3 i {
+    font-size: 11px;
+  }
+  .btn_media3 p {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .left_side_content .title_two {
+    font-size: 16px;
+  }
+  .left_side_content .image_left_side {
+    height: 300px;
+  }
+
+  .container_detail .aside_content {
+    width: 100%;
+  }
+  .aside_content .card_aside {
+    height: 80px;
+  }
+  .all_card_sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+  }
+  .right_card {
+    width: 100%;
+  }
+  .lefe_card {
+    width: 100%;
+  }
+  .card_aside .box_txt .txt_card_aside {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* finish read news */
 }
 
 /*  Large devices (desktops, 992px and up) */

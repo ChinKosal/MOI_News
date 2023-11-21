@@ -86,11 +86,6 @@ function topFunction() {
 
 // finish btn scroll top
 
-// click chhange svg in btn_slider_Card
-function chhangeIcon(x) {
-  x.classList.toggle("​​​fa-arrow-down-long");
-}
-
 // map
 function myMap() {
   var mapProp = {
