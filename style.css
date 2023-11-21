@@ -700,7 +700,7 @@ form input::placeholder {
 }
 .container_news1 .card_news1 {
   width: 100%;
-  height: 470px;
+  height: 495px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   background-color: var(--white1_color) !important;
 
@@ -772,7 +772,7 @@ form input::placeholder {
   opacity: 0.8;
 
   display: inline;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
@@ -781,7 +781,7 @@ form input::placeholder {
 }
 
 .card_news1 .btn_share {
-  padding-top: 15px;
+  padding-top: 10px;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -1176,8 +1176,8 @@ form input::placeholder {
   padding: 13px 20px;
   border-radius: 10px;
   border: none;
-  background-color: var(--gray_color);
-  box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+  background-color: #99a1a9 !important;
+  /* box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px; */
 
   display: flex;
   align-items: center;
@@ -1198,7 +1198,7 @@ form input::placeholder {
   border-radius: 10px;
   border: none;
   background-color: var(--blue_color);
-  box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+  /* box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px; */
 
   display: flex;
   align-items: center;
@@ -1555,7 +1555,7 @@ form input::placeholder {
 .facebook p {
   color: var(--white1_color);
   font-family: var(--poppin_font);
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.1s all;
 }
 .box_mit1 .facebook:hover svg {
@@ -1575,7 +1575,7 @@ form input::placeholder {
   font-size: 25px;
 }
 .box_mit2 .ios {
-  width: 100%;
+  width: 150px;
   height: 60px;
   margin-top: 15px;
 }
@@ -1584,7 +1584,7 @@ form input::placeholder {
   height: 100%;
 }
 .box_mit2 .addriod {
-  width: 100%;
+  width: 150px;
   height: 60px;
   margin-top: 15px;
 }
@@ -1802,7 +1802,7 @@ form input::placeholder {
 .container_detail .left_side_content {
   width: 65%;
   height: 100%;
-  padding: 15px 30px;
+  padding: 15px 20px;
 
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
@@ -1836,7 +1836,8 @@ form input::placeholder {
 }
 .left_side_content .btn_media1 {
   padding: 10px;
-  height: 40px;
+  width: 140px;
+  height: 45px;
   border-radius: 30px;
   border: 1px solid var(--gray_color);
   background-color: #005ebe;
@@ -1860,7 +1861,8 @@ form input::placeholder {
 
 .left_side_content .btn_media2 {
   padding: 10px;
-  height: 40px;
+  width: 140px;
+  height: 45px;
   border-radius: 30px;
   border: 1px solid var(--gray_color);
   background-color: #0571df;
@@ -1884,7 +1886,8 @@ form input::placeholder {
 
 .left_side_content .btn_media3 {
   padding: 10px;
-  height: 40px;
+  width: 140px;
+  height: 45px;
   border-radius: 30px;
   border: 1px solid var(--gray_color);
   background-color: #0a81fa;
@@ -2271,8 +2274,8 @@ form input::placeholder {
   position: relative;
   width: 100%;
   height: 120px;
-  border: 1px solid var(--gray_color);
-  background-color: rgba(128, 128, 128, 0.068);
+  border: 2px solid #ccc !important;
+  background-color: rgba(211, 211, 211, 0.385) !important;
 }
 .box_item_sec1 .icon_radio {
   position: absolute;

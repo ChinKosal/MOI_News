@@ -7,6 +7,9 @@
   html {
     overflow-x: hidden;
   }
+  section {
+    padding: 0px 10px;
+  }
 
   /* .section_1 {
     margin-top: 90px;
@@ -99,12 +102,13 @@
   .card_news1 .box_title .txt3 {
     font-size: 18px;
     line-height: 25px;
+    opacity: 0.7;
   }
   .card_news1 .btn_share {
     padding-top: 10px;
   }
   .card_news1 .btn_share button {
-    padding: 10px 12px;
+    padding: 7px 9px;
   }
   .btn_more_item {
     width: 100%;
@@ -284,7 +288,7 @@
   }
 
   .full_container_sidebar .box_sidebar {
-    width: 100%;
+    width: 80%;
   }
   /* finish footer */
 
@@ -388,17 +392,25 @@
   .detail {
     margin-top: 20px;
   }
+  .detail .full_container_detail {
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+  }
   .full_container_detail .container_detail {
     width: 100%;
     flex-direction: column;
   }
   .container_detail .left_side_content {
     width: 100%;
-    margin: 10px;
   }
   .left_side_content .title_one {
-    font-size: 21px;
+    font-size: 19px;
     line-height: 35px;
+  }
+  .left_side_content .title_two {
+    font-size: 14px;
+    opacity: 0.7;
   }
   .left_side_content .date_of_content {
     margin-top: 10px;
@@ -410,7 +422,8 @@
     gap: 15px;
   }
   .left_side_content .btn_media1 {
-    padding: 2px 8px;
+    width: 110px;
+    height: auto;
   }
   .btn_media1 i {
     font-size: 11px;
@@ -419,7 +432,8 @@
     font-size: 11px;
   }
   .left_side_content .btn_media2 {
-    padding: 2px 8px;
+    width: 110px;
+    height: auto;
   }
   .btn_media2 i {
     font-size: 11px;
@@ -428,7 +442,8 @@
     font-size: 11px;
   }
   .left_side_content .btn_media3 {
-    padding: 2px 10px;
+    width: 110px;
+    height: auto;
   }
   .btn_media3 i {
     font-size: 11px;
@@ -446,20 +461,24 @@
 
   .container_detail .aside_content {
     width: 100%;
-    margin: 10px;
   }
   .aside_content .card_aside {
     height: 80px;
   }
   .all_card_sidebar {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
   }
   .right_card {
-    width: 50%;
+    width: 100%;
   }
   .lefe_card {
-    width: 50%;
+    width: 100%;
+  }
+  .card_aside .box_txt .txt_card_aside {
+    font-size: 15px;
+    line-height: 25px;
   }
   /* finish read news */
 
@@ -505,6 +524,9 @@
   /* finish magazin card */
 
   /* vido card */
+  .container_video_sec .all_card_video {
+    width: 100%;
+  }
   .all_card_video {
     width: 100%;
     display: grid;
@@ -670,7 +692,7 @@
   }
   .container_news1 .card_news1 {
     height: auto;
-    padding-bottom: 42px;
+    padding-bottom: 25px;
   }
   .card_news1 .btn_share button {
     padding: 10px;
@@ -1010,14 +1032,15 @@
     font-size: 14px;
   }
   .card_news1 .box_title .txt3 {
-    font-size: 18px;
+    font-size: 17px;
+    opacity: 0.7;
     line-height: 25px;
   }
   .card_news1 .btn_share {
-    padding-top: 10px;
+    padding-top: 8px;
   }
   .card_news1 .btn_share button {
-    padding: 10px 12px;
+    padding: 7px 9px;
   }
   .btn_more_item {
     width: 100%;
@@ -1030,10 +1053,6 @@
     display: none;
   }
   /* finish section page 1 */
-
-  /* card page 1 */
-
-  /* finish card page 1 */
 
   /* section page 2 */
   .container_sec1_page2 {
@@ -1691,9 +1710,6 @@
   /* finish section page 2 */
 
   /* card page 2 */
-  .container_card_page2 .card_page2 {
-    height: auto;
-  }
   .card_page2 .box_title {
     padding: 5px 15px 15px 10px;
   }
@@ -1701,12 +1717,28 @@
     text-decoration: none;
   }
   .card_page2 .box_title .txt1 {
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
+  }
+  .card_page2 .btn_share button {
+    padding: 5px 8px;
+  }
+  .card_page2 .btn_share button svg {
+    width: 20px;
+    height: 20px;
+  }
+  .card_page2 .btn_share .txt_share {
+    font-size: 16px;
+  }
+  .card_page2 .btn_share .txt2 {
+    font-size: 16px;
   }
 
   .card_page2 .box_title .txt3 {
     font-size: 18px;
+    line-height: 32px;
+    opacity: 0.7;
+    margin-top: 10px;
   }
   /* finish card page 2 */
   /* modal */
@@ -1741,4 +1773,38 @@
     padding-top: 10px;
   }
   /* finish card magazin */
+
+  /* radio */
+  .all_box_item_sec1 .box_item_sec1 {
+    padding: 10px;
+    height: 140px;
+  }
+  .box_item_sec1 .icon_radio svg {
+    width: 70px;
+    height: 70px;
+  }
+  .box_item_sec1 .text_one_sec1 {
+    left: 23%;
+  }
+  .box_item_sec1 .text_one_sec1 p {
+    font-size: 21px;
+  }
+  .box_item_sec1 .date_sec1 {
+    top: 65%;
+    left: 23%;
+  }
+  .box_item_sec1 .date_sec1 p {
+    font-size: 16px;
+  }
+  .box_item_sec1 .click_lesson {
+    top: 47%;
+    width: 75px;
+    height: 50px;
+    padding: 0px 5px;
+  }
+
+  /* btn scroll top */
+  .btn_scroll {
+    display: none;
+  }
 }
