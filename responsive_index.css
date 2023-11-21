@@ -1303,6 +1303,9 @@
     background-color: var(--blue_color);
     transition: 0.1s all;
   }
+  .box_item_sec1 .date_sec1 {
+    left: 25% !important;
+  }
 }
 
 /*  Large devices (desktops, 992px and up) */
