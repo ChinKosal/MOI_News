@@ -1798,6 +1798,7 @@ form input::placeholder {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  gap: 15px;
 }
 .container_detail .left_side_content {
   width: 65%;
